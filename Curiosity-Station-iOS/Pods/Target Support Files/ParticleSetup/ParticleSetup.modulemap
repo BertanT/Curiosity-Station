@@ -1,0 +1,6 @@
+framework module ParticleSetup {
+  umbrella header "ParticleSetup-umbrella.h"
+
+  export *
+  module * { export * }
+}

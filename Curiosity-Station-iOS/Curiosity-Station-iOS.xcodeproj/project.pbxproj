@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D0FC23263D568C004F7839 /* Curiosity_Station_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0FC22263D568C004F7839 /* Curiosity_Station_iOSApp.swift */; };
+		56D0FC2A263D568D004F7839 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D0FC29263D568D004F7839 /* Preview Assets.xcassets */; };
+		56E7307627A1B14A007BF642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E7307527A1B14A007BF642 /* Assets.xcassets */; };
+		56F242B027A4275300EC3ED9 /* CardinalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F242AF27A4275300EC3ED9 /* CardinalDirection.swift */; };
+		56F5BB2C263D621D00B48306 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB2B263D621D00B48306 /* LoginScreen.swift */; };
+		56F5BB2E263D624900B48306 /* SharedCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB2D263D624900B48306 /* SharedCloud.swift */; };
+		56F5BB30263D62B100B48306 /* WeatherStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB2F263D62B100B48306 /* WeatherStation.swift */; };
+		56F5BB34263D630600B48306 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB33263D630600B48306 /* WeatherData.swift */; };
+		56F5BB36263D634900B48306 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB35263D634900B48306 /* UIHelpers.swift */; };
+		56F5BB39263D63CF00B48306 /* WeatherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB38263D63CF00B48306 /* WeatherScreen.swift */; };
+		56F5BB3B263D640300B48306 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB3A263D640300B48306 /* Compass.swift */; };
+		56F5BB3E263D646900B48306 /* WeatherLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB3D263D646900B48306 /* WeatherLabel.swift */; };
+		56F5BB40263D673700B48306 /* DisconnectedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB3F263D673700B48306 /* DisconnectedScreen.swift */; };
+		56F5BB42263D675A00B48306 /* DeviceSelectionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB41263D675A00B48306 /* DeviceSelectionSheet.swift */; };
+		56F5BB44263D6DB600B48306 /* WeatherMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB43263D6DB600B48306 /* WeatherMonitor.swift */; };
+		56F5BB46263D6DDC00B48306 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5BB45263D6DDC00B48306 /* ErrorView.swift */; };
+		824A0A48B106D9D0148A18FD /* Pods_Curiosity_Station_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E51D6EAFA0E196E264CA0 /* Pods_Curiosity_Station_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56D0FC22263D568C004F7839 /* Curiosity_Station_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curiosity_Station_iOSApp.swift; sourceTree = "<group>"; };
+		56D0FC29263D568D004F7839 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56D0FC2B263D568D004F7839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D5BB6C27A1CC9100D705FA /* Curiosity-Station-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Curiosity-Station-iOS.entitlements"; sourceTree = "<group>"; };
+		56E7307527A1B14A007BF642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56EA061429617A900028795C /* Curiosity-Station-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Curiosity-Station-iOS.app"; path = "/Users/bertan/Developer/GitRepositories/Curiosity-Station-App-Private/build/Debug-iphoneos/Curiosity-Station-iOS.app"; sourceTree = "<absolute>"; };
+		56F242AF27A4275300EC3ED9 /* CardinalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
+		56F5BB1A263D5FB900B48306 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		56F5BB2B263D621D00B48306 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		56F5BB2D263D624900B48306 /* SharedCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCloud.swift; sourceTree = "<group>"; };
+		56F5BB2F263D62B100B48306 /* WeatherStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherStation.swift; sourceTree = "<group>"; };
+		56F5BB33263D630600B48306 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		56F5BB35263D634900B48306 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
+		56F5BB38263D63CF00B48306 /* WeatherScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherScreen.swift; sourceTree = "<group>"; };
+		56F5BB3A263D640300B48306 /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
+		56F5BB3D263D646900B48306 /* WeatherLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLabel.swift; sourceTree = "<group>"; };
+		56F5BB3F263D673700B48306 /* DisconnectedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedScreen.swift; sourceTree = "<group>"; };
+		56F5BB41263D675A00B48306 /* DeviceSelectionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionSheet.swift; sourceTree = "<group>"; };
+		56F5BB43263D6DB600B48306 /* WeatherMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMonitor.swift; sourceTree = "<group>"; };
+		56F5BB45263D6DDC00B48306 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5FB3F12D75738D03E5E0CC31 /* Pods-Curiosity-Station-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curiosity-Station-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		62431E6D853C543B1F2B970E /* Pods-Curiosity-Station-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curiosity-Station-iOS.release.xcconfig"; path = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7E9E51D6EAFA0E196E264CA0 /* Pods_Curiosity_Station_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Curiosity_Station_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D0FC1C263D568C004F7839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824A0A48B106D9D0148A18FD /* Pods_Curiosity_Station_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56C1607D27A8B439007E7082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56F5BB28263D61D000B48306 /* Navigation */,
+				56F5BB47263D6ED300B48306 /* WeatherMonitor */,
+				56F5BB35263D634900B48306 /* UIHelpers.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56D0FC16263D568C004F7839 = {
+			isa = PBXGroup;
+			children = (
+				56D0FC21263D568C004F7839 /* Curiosity-Station-iOS */,
+				ABE0637FF0AF533EA0AACAE3 /* Pods */,
+				76E61D4A5F1FB120AF629C8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56D0FC21263D568C004F7839 /* Curiosity-Station-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56D5BB6C27A1CC9100D705FA /* Curiosity-Station-iOS.entitlements */,
+				56F5BB2A263D61E400B48306 /* Data */,
+				56C1607D27A8B439007E7082 /* Views */,
+				56D0FC22263D568C004F7839 /* Curiosity_Station_iOSApp.swift */,
+				56E7307527A1B14A007BF642 /* Assets.xcassets */,
+				56D0FC2B263D568D004F7839 /* Info.plist */,
+				56F5BB1A263D5FB900B48306 /* BridgingHeader.h */,
+				56D0FC28263D568D004F7839 /* Preview Content */,
+			);
+			path = "Curiosity-Station-iOS";
+			sourceTree = "<group>";
+		};
+		56D0FC28263D568D004F7839 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56D0FC29263D568D004F7839 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56F5BB27263D61C100B48306 /* WeatherStation */ = {
+			isa = PBXGroup;
+			children = (
+				56F5BB2F263D62B100B48306 /* WeatherStation.swift */,
+				56F5BB33263D630600B48306 /* WeatherData.swift */,
+				56F242AF27A4275300EC3ED9 /* CardinalDirection.swift */,
+			);
+			path = WeatherStation;
+			sourceTree = "<group>";
+		};
+		56F5BB28263D61D000B48306 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				56F5BB2B263D621D00B48306 /* LoginScreen.swift */,
+				56F5BB38263D63CF00B48306 /* WeatherScreen.swift */,
+				56F5BB41263D675A00B48306 /* DeviceSelectionSheet.swift */,
+				56F5BB45263D6DDC00B48306 /* ErrorView.swift */,
+				56F5BB3F263D673700B48306 /* DisconnectedScreen.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		56F5BB2A263D61E400B48306 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				56F5BB2D263D624900B48306 /* SharedCloud.swift */,
+				56F5BB27263D61C100B48306 /* WeatherStation */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		56F5BB47263D6ED300B48306 /* WeatherMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				56F5BB43263D6DB600B48306 /* WeatherMonitor.swift */,
+				56F5BB3A263D640300B48306 /* Compass.swift */,
+				56F5BB3D263D646900B48306 /* WeatherLabel.swift */,
+			);
+			path = WeatherMonitor;
+			sourceTree = "<group>";
+		};
+		76E61D4A5F1FB120AF629C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9E51D6EAFA0E196E264CA0 /* Pods_Curiosity_Station_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE0637FF0AF533EA0AACAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F12D75738D03E5E0CC31 /* Pods-Curiosity-Station-iOS.debug.xcconfig */,
+				62431E6D853C543B1F2B970E /* Pods-Curiosity-Station-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D0FC1E263D568C004F7839 /* Curiosity-Station-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D0FC2E263D568D004F7839 /* Build configuration list for PBXNativeTarget "Curiosity-Station-iOS" */;
+			buildPhases = (
+				BF661FCCB85F01A9BD888044 /* [CP] Check Pods Manifest.lock */,
+				56D0FC1B263D568C004F7839 /* Sources */,
+				56D0FC1C263D568C004F7839 /* Frameworks */,
+				56D0FC1D263D568C004F7839 /* Resources */,
+				96EA21B4F62B794DC6581397 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curiosity-Station-iOS";
+			productName = "Curiosity-Station-iOS";
+			productReference = 56EA061429617A900028795C /* Curiosity-Station-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D0FC17263D568C004F7839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					56D0FC1E263D568C004F7839 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 56D0FC1A263D568C004F7839 /* Build configuration list for PBXProject "Curiosity-Station-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D0FC16263D568C004F7839;
+			productRefGroup = 56D0FC16263D568C004F7839;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D0FC1E263D568C004F7839 /* Curiosity-Station-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D0FC1D263D568C004F7839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E7307627A1B14A007BF642 /* Assets.xcassets in Resources */,
+				56D0FC2A263D568D004F7839 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96EA21B4F62B794DC6581397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF661FCCB85F01A9BD888044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Curiosity-Station-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D0FC1B263D568C004F7839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F5BB46263D6DDC00B48306 /* ErrorView.swift in Sources */,
+				56F5BB2E263D624900B48306 /* SharedCloud.swift in Sources */,
+				56F5BB34263D630600B48306 /* WeatherData.swift in Sources */,
+				56F5BB30263D62B100B48306 /* WeatherStation.swift in Sources */,
+				56F5BB36263D634900B48306 /* UIHelpers.swift in Sources */,
+				56F242B027A4275300EC3ED9 /* CardinalDirection.swift in Sources */,
+				56F5BB42263D675A00B48306 /* DeviceSelectionSheet.swift in Sources */,
+				56D0FC23263D568C004F7839 /* Curiosity_Station_iOSApp.swift in Sources */,
+				56F5BB39263D63CF00B48306 /* WeatherScreen.swift in Sources */,
+				56F5BB44263D6DB600B48306 /* WeatherMonitor.swift in Sources */,
+				56F5BB3B263D640300B48306 /* Compass.swift in Sources */,
+				56F5BB3E263D646900B48306 /* WeatherLabel.swift in Sources */,
+				56F5BB2C263D621D00B48306 /* LoginScreen.swift in Sources */,
+				56F5BB40263D673700B48306 /* DisconnectedScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56D0FC2C263D568D004F7839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56D0FC2D263D568D004F7839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D0FC2F263D568D004F7839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB3F12D75738D03E5E0CC31 /* Pods-Curiosity-Station-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Curiosity-Station-iOS/Curiosity-Station-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curiosity-Station-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curiosity-Station-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Curiosity-Station-iOS/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Pods/**";
+			};
+			name = Debug;
+		};
+		56D0FC30263D568D004F7839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62431E6D853C543B1F2B970E /* Pods-Curiosity-Station-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Curiosity-Station-iOS/Curiosity-Station-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curiosity-Station-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curiosity-Station-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Curiosity-Station-iOS/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Pods/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D0FC1A263D568C004F7839 /* Build configuration list for PBXProject "Curiosity-Station-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0FC2C263D568D004F7839 /* Debug */,
+				56D0FC2D263D568D004F7839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D0FC2E263D568D004F7839 /* Build configuration list for PBXNativeTarget "Curiosity-Station-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0FC2F263D568D004F7839 /* Debug */,
+				56D0FC30263D568D004F7839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D0FC17263D568C004F7839 /* Project object */;
+}
