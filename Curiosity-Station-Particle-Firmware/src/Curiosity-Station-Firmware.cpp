@@ -3,7 +3,7 @@
 /******************************************************/
 
 #include "Particle.h"
-#line 1 "/Users/bertan/Developer/GitRepositories/Curiosity-Station-Firmware/src/Curiosity-Station-Firmware.ino"
+#line 1 "/Users/bertan/Developer/GitRepositories/Curiosity-Station/Curiosity-Station-Particle-Firmware/src/Curiosity-Station-Firmware.ino"
 /*
  * Project Curiosity-Station-Firmware
  * Description:
@@ -26,7 +26,7 @@ void readWindSpeed();
 void takeWeatherMeasurement();
 void setup();
 void loop();
-#line 15 "/Users/bertan/Developer/GitRepositories/Curiosity-Station-Firmware/src/Curiosity-Station-Firmware.ino"
+#line 15 "/Users/bertan/Developer/GitRepositories/Curiosity-Station/Curiosity-Station-Particle-Firmware/src/Curiosity-Station-Firmware.ino"
 #define anemometer D7
 #define windVane A0
 #define rainGauge A2
@@ -138,7 +138,7 @@ void setSensorSleep(bool enable=true) {
 }
 
 // Define variables to hold device info
-String csID = "CuriosityStationBeta1";
+String csID = "CuriosityStationRC1";
 bool hardwareFailure = false;
 
 // Function for taking a measurement and updating cloud variables

@@ -123,7 +123,7 @@ void setSensorSleep(bool enable=true) {
 }
 
 // Define variables to hold device info
-String csID = "CuriosityStationBeta1";
+String csID = "CuriosityStationRC1";
 bool hardwareFailure = false;
 
 // Function for taking a measurement and updating cloud variables
