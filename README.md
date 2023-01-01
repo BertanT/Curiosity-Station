@@ -1,2 +1,2 @@
 # Curiosity-Station
-IoT weather station and its accompanying iOS app. Powered By Particle Cloud. More details coming soon.
+IoT weather station and its accompanying iOS app. Powered by Particle Cloud. More details coming soon.
