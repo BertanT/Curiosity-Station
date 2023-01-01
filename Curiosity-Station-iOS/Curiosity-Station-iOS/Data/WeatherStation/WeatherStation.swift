@@ -16,7 +16,7 @@ final class WeatherStation {
     private let device: ParticleDevice
     private var newMeasurementEventID: Any?
     
-    private let compatibleFirmwareIDPrefix = "CuriosityStationBeta1"
+    private let compatibleFirmwareIDPrefix = "CuriosityStationRC1"
     private let correctVariableNames = (WeatherData.WeatherMeasurement.allCases.map { $0.rawValue } + ["firmwareID", "hardwareFailure"]).sorted()
     
     enum DeviceError: Error, LocalizedError {
