@@ -1,0 +1,1991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8073B1A1DEA1651B4987123DA471B /* UIRefreshControl+AFNetworking.m */; };
+		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E5C5A9DE845D7F1584E2C2D898434 /* UIProgressView+AFNetworking.m */; };
+		03E5389570C3E332B6C4571727CC6FC8 /* ParticleUserSignupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9990DAC23727DCE33E717C549B553DEB /* ParticleUserSignupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07204E6443ECBC9C73AC3EC8427BD92F /* ParticleSimInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 308DD217EA30964FA7588061AC145AA9 /* ParticleSimInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A1210FBC9A2E6DE786AE1B690FDA84 /* Particle-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35126897A08AA8B8178A8EEF6EC85E70 /* Particle-SDK-dummy.m */; };
+		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 051CA5DB8957F86CD75DCDB3D6A8249B /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BF43096BE20E4192E15E873190CB13 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEA9E484BA0D6E30CCEED4FF80D328D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03F83C56F12F2DA96125EAD4ED96326 /* MobileCoreServices.framework */; };
+		0E234694FC31AF8F20E53FA62A19EF26 /* ParticleManualNetworkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EFCC106B7180DAF3F46672EC3B930C /* ParticleManualNetworkViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1128B54A8685DF5A30C4736CADA3B2CE /* ParticleSetupWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC63BE881DE8AAB74D668E243688D328 /* ParticleSetupWebViewController.m */; };
+		14713CD36AE5CF5DC397679C780116AF /* ParticleSetupResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7CE48C05CD1C2B249994D957CBD34 /* ParticleSetupResultViewController.m */; };
+		1536F2D9F4A646F0A27FE109CE4BC917 /* OnePasswordExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E105F0C1E7BC0C123D46655EB7C1655F /* OnePasswordExtension.framework */; };
+		16009937E43699455BC26540A21D199B /* ParticleSetupMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0776CFD5209E465847AC330F8BE53B3 /* ParticleSetupMainController.m */; };
+		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D65E0A4F402CC51082EA5FD63E56B4 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3B1F358128187ABAB16A47A2402581 /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CC63FA6DC77852EE20D815DAB3F837 /* 1Password.xcassets */; };
+		1C6CFD30DDC8B8F003FA09C6A91C63C0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8189226888C684C3B6D7EE6C7B6B8F /* AFNetworking.framework */; };
+		1D9CBAD9514252FF524EB2E0A1CD6ADD /* ParticleSetupSpacerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 558BA457C9EA82E465F90B9E47CF01F8 /* ParticleSetupSpacerView.m */; };
+		1E8A6B22B77035F8B80B7802FC7F723F /* ParticleSelectNetworkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9107D35C134DB7DCCC07B4CCF25C66B6 /* ParticleSelectNetworkViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAE2D8E2BBFA44C7E6AC4A232AB9EAF /* ParticleSession.h in Headers */ = {isa = PBXBuildFile; fileRef = E6142727A58BDD84C9672C9AAFB9B911 /* ParticleSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEA32D06DEB9D534DA73A7AF979B02E /* ParticlePricingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E879950A8CD5BA77BB3F83D0161FA3 /* ParticlePricingInfo.m */; };
+		21FF0E4297EAF62857038F7008BC6193 /* ParticleDeveloperAgreement.m in Sources */ = {isa = PBXBuildFile; fileRef = E44810DFB778B8166D258EB43B82E076 /* ParticleDeveloperAgreement.m */; };
+		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F27478CFD8E0C81318BD8B9683F9879 /* UIImageView+AFNetworking.m */; };
+		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C34B2DBA18F47D0EF2C2FD602F0EC9 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 324C41156112F72B268237082C508D58 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD1788C1FEBE34B51D3B23E2D7C3488 /* ParticleSetup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2DD950A01EA7778723A96DC41F6307 /* ParticleSetup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A649772472EAB652F838D79671DF2DCF /* AFNetworkReachabilityManager.m */; };
+		318D6D3D120B5CF75077F05073F8164C /* ParticleSimInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 842885DBD8332414B24F343998F61EFD /* ParticleSimInfo.m */; };
+		362A3D83A37A38CABDB4E55C3E42C67A /* ParticleGetReadyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9679B27A19501B481172670992DEB8B6 /* ParticleGetReadyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385FA9E0BAB1F7113F18B13D63B98413 /* ParticleDiscoverDeviceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4DFE625DBF1A2830CFDA4630D4C39D /* ParticleDiscoverDeviceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EEA89EA738EDC65C9490F41CE99324 /* UIButton+AFNetworking.m */; };
+		3C0AB1C37B8D7636F65DC119E2822BE0 /* ParticleSetupPasswordEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C817E4DC894C347B89178D6FED4FD /* ParticleSetupPasswordEntryViewController.m */; };
+		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E8948846BCA1E37E3B4AA06E9F3539 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCBD4EB4B45B9DF0EEBFB597C260DAA /* ParticleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 896ED1DDC92C9271F200F44A330E0E6B /* ParticleDevice.m */; };
+		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB750DC222740AC912FF80A9CBBE5712 /* AFNetworking-dummy.m */; };
+		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9031B18AA65CCAE899C48DD58D29C777 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		407DAE6ED7BA3CE1093C13C6608D99BC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DF060415B4F60ECB9235A6BA81329 /* Security.framework */; };
+		41244BC4163E23805F22403039F07E5A /* ParticleDiscoverDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669936B27217C84BCCE3FF85B87DF5E3 /* ParticleDiscoverDeviceViewController.m */; };
+		42DCE3CE0029923BD3F20BB561A1166E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84725C0DB8BC49FE0E400FF6D87ED190 /* SystemConfiguration.framework */; };
+		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 501C4CECE5F7C838C9996BDE08EB0781 /* AFAutoPurgingImageCache.m */; };
+		4A4C05085EE29AC3F723231386DFDDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */; };
+		4D923A5760A4622293AC181DD2304407 /* ParticleCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 570CC08ED520CE6F8D78DA259F7F54AD /* ParticleCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0D418278E62AF3ACF86FF7A3DAB7D3 /* ParticleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507049ACDF7FDC0C45896EEADB8FE60 /* ParticleLogger.m */; };
+		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DB5D040EE5757738F54A1766F15C1A /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519DEEF2D1B69AF5089D06D0B109E2AF /* ParticleSetupWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B59F5F4CA30EB0A7AEA09CA29B783311 /* ParticleSetupWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F2FDCD2C02097D15CE05982B888960 /* ParticleSetupConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C06AE449E32DB4B0D7D60D1D75192F9 /* ParticleSetupConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528ACA11697E68A6CC809B2714F5EB97 /* ParticleSetupUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0168506463259BD4C00D1AC20ED999 /* ParticleSetupUIViewController.m */; };
+		5449E6FD092548CE1C3B031694A20C6B /* ParticleSetupUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AEC26158EB97B5787416CAE2565A4C /* ParticleSetupUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */; };
+		5716EF5342BD620457FEA7538D54D017 /* OnePasswordExtensionResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */; };
+		596AB727D273D995D6938C573BC97D61 /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4D696E2937D73E295BC52C10A4FDC /* EventSource.m */; };
+		596CFC3345E79E840FDF0CBB6F8C13B6 /* ParticleUserMFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9387A3C1B4D5036C1671FE2FAC4E6 /* ParticleUserMFAViewController.m */; };
+		5E7049DAB699FF708003AEEC25B5383A /* ParticleSetupUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B6A4A2022B5AA8BC69837F2335BD56 /* ParticleSetupUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A83501B2189060C50949CC67E7B35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFE8AAE9F717A2C839157F8D2D08919 /* UIKit.framework */; };
+		62E86E3C8759E1DBC76466575D7D3ED7 /* Particle-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315D0339A2786B95AADC71C07B89CDD7 /* Particle-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6438CC8C6E68EC8BA00C464B4C18D2ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFE8AAE9F717A2C839157F8D2D08919 /* UIKit.framework */; };
+		673F15570457FF2F9E2D3AAEBAE36F4A /* ParticleSetupVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14430595C6DE53E2080753DD68DCA84 /* ParticleSetupVideoViewController.m */; };
+		6971E0AC7096DD7A96C1B26E97930983 /* ParticleUserForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8C3B8074B2221FAC4DBADEBAC966D /* ParticleUserForgotPasswordViewController.m */; };
+		6A37B1DC8B010902B0FDD512A77B502D /* ParticleDeveloperAgreement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB05A9A64FAC57518A918A981F2219D /* ParticleDeveloperAgreement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A92A4D488827632111EA36321B2D12C /* ParticleSetupMainController.h in Headers */ = {isa = PBXBuildFile; fileRef = E922AE1E457C5F76DC2050B7A547B850 /* ParticleSetupMainController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF76FA501BA30FB1F4A18F19CE51C73 /* setup.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C33D0A29D186770DAC2CF6CFFB6BC8 /* setup.xcassets */; };
+		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BC277ACB6D52929BAEEC33383B9812 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A4AFE7ADAD35DFB43B83C7DED02B0A /* ParticleSelectNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C04157DD62EFD6CE7EB6161F2B01EB /* ParticleSelectNetworkViewController.m */; };
+		721244A3BDFD1301CEF57E24FB8C6874 /* 1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F76A9E3E954B6EDD2A13F9439A7E0B3 /* 1PasswordExtension-dummy.m */; };
+		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B28F8DED787A06C20D61FAD6C86D6B /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730B2DB59DE718F80217ABC8A5C7939F /* ParticleSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D680A14CDE60009D437D69FCE51F017 /* ParticleSession.m */; };
+		7350851D768E2D0AD922D48A57FC1FF9 /* ParticleSetupWifiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F29F1504E88CF348CA4647D71D95BF /* ParticleSetupWifiTableViewCell.m */; };
+		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3547B7570A8F4D9448F2822F392F56 /* AFURLSessionManager.m */; };
+		7BB02A61873D7030878886D85EA0F35B /* ParticleSetupUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C648867960010B3A46AB5CFB5E99F3A /* ParticleSetupUILabel.m */; };
+		7BFAE6644ED779A37457E80096BC240C /* ParticleManualNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FE3F4E4603D280F2F185F40902AD /* ParticleManualNetworkViewController.m */; };
+		7C18387871B24161F954A036D7880669 /* ParticleSetup-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C624C54C269865277ABA1EF35826AB3C /* ParticleSetup-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E45BD7368C2E249033420D50FDD555C /* Particle-SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 572F7A539A4FB8920D64650A2D8A0F9D /* Particle-SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EA90176DC1908D9014BC010E3210230 /* Particle_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F22FCB3A9AC5098C69FF36B9944E100 /* Particle_SDK.framework */; };
+		815D482029A504EC3B3C6C3B5BF4DE39 /* ParticleSetupPasswordEntryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C07697E3E43177C26614E8509CE024F7 /* ParticleSetupPasswordEntryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76B333D739C75D0A2373623CDA5C60 /* AFURLResponseSerialization.m */; };
+		82FB63C1C763CAD79C6CA4815CEAC77F /* ParticleSetupStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B09B8C32F6AF10D88E4D34E28383F0 /* ParticleSetupStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D12D51AAF6E859D160056824004886 /* setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964E1749E1A288622B123563039E72A6 /* setup.storyboard */; };
+		86C73EA7E7F230546CB34A5B978366DB /* ParticleErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E328C508DCB25F140952920CE764F6F /* ParticleErrorHelper.m */; };
+		8AAD6F50CFE8012D18CB023FE1987F82 /* ParticleSetupSpacerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F790C20C716B123E52272442FEDFD80 /* ParticleSetupSpacerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF3609A0A6A1B72E5117E4ECC75DD53 /* ParticleUserForgotPasswordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB1F139CBD203621FA36E883D215499 /* ParticleUserForgotPasswordViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B85F4E18729114AA3D5E550D8947E73 /* 1PasswordExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 911941DD9BD0179477568B983F6CE79B /* 1PasswordExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C74B42DE8642668ADB1D0DD9744A84C /* ParticleCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13D100C487DCC34B84E7D5C292803D /* ParticleCloud.m */; };
+		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952C8CE2327F1889048DA5D0BD6AF15 /* AFHTTPSessionManager.m */; };
+		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A36BDAD411466EB83C7D6996E80DAF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9116CCFDAF432CA98DA4C480723B68B1 /* ParticleSetupUISpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C92F84D9CA52EA493BB8A0D4FB4D9D /* ParticleSetupUISpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91490EF4165B36E776AE99F2CE21FC84 /* ParticleSetupCommManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E41EBC8C99CA90DDB194D6FEBBD8B /* ParticleSetupCommManager.m */; };
+		91A74732C93A4AB878332E2621E79ED7 /* ParticleGetLocationPermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151B82B9E2179051FE93B68778387BD5 /* ParticleGetLocationPermissionViewController.m */; };
+		91AE3C78DD95EC75AC9FC9FA4C567106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */; };
+		93FE6F38951364652F320C9C929DC7AE /* ParticleErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EB065EEF5CBD203C9B592455C8B667C8 /* ParticleErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944F99D1CF0FE84994B026EF9AD0D8F3 /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 31496F7A20FF3A5C700908038D1059C6 /* OnePasswordExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9481CA4C2B15111EC8E11D1E756F8408 /* ParticleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DB773BD51098E042E9281761FF41B4D4 /* ParticleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B92211753B0633503DA83E130C57D5F /* WKWebView+AFNetworking.m */; };
+		9551AFFDA2C583C0FCF621457C28ACFB /* ParticleSetup.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3260F24C009F93BEC941DF6EDD7DC8E7 /* ParticleSetup.bundle */; };
+		9571F10DA5C9E3FA93CB2371F7FBC61F /* ParticleSetupVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EB2CAB6D7092A35A22717870EFAE81 /* ParticleSetupVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958135F116BCCC2D2C907426F81CA69C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 141CE87B2EE526FD28D96EA11F175ECC /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9901E541EEF77EDBD27D0C39F9E866E5 /* ParticleUserSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9034B49B371F5C9989DBB4D8F34D0 /* ParticleUserSignupViewController.m */; };
+		9A9D28DBC455907EF2F0ACA491C4C641 /* ParticleSetupResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5736AF74ACE3F80215D4136EB40098AB /* ParticleSetupResultViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AEF13CFCAC7074EE76387E3B3FD7DE2 /* ParticleSetupCustomization.m in Sources */ = {isa = PBXBuildFile; fileRef = DE51B4FA5AF838D1D1BF815B8A6D8F11 /* ParticleSetupCustomization.m */; };
+		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C565079B7101CE2ACC54694AF24AF6 /* AFNetworkActivityIndicatorManager.m */; };
+		9D70D14703167496720F24946F94785A /* ParticleGetLocationPermissionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B0E7E3BFA14431C13589703B5ECF4A /* ParticleGetLocationPermissionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D86D0ECC04931178EE061FF99DAD85D /* ParticleUserLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EAD5CDCE4E6B991A5937DDE78ED4ED /* ParticleUserLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8AF589D62155B1C07B6ECECAE4ADA5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA609B30461A78D4E4286CE8ED2D72 /* Reachability.m */; };
+		9F9F7CF4F1362E6295B13901C12E5877 /* ParticleSetupUISpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDDD5D2F5F2E46481465D4F7DF66A3 /* ParticleSetupUISpinner.m */; };
+		A307CE42172CE7FD1AF415365AF8B5B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84725C0DB8BC49FE0E400FF6D87ED190 /* SystemConfiguration.framework */; };
+		A3100FD69DB04075C52FFDC4BE786068 /* ParticleSetupCommManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5C3920433EDFE7B7CD331D21D66956 /* ParticleSetupCommManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51F052CEFE10BF6377B06B1A23ADD95 /* ParticleSetupUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DA64CE486AEFB849F481BE0BFF8554 /* ParticleSetupUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A610F472B19C9FA345B9E92675F00D8C /* ParticleUserMFAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 034C6B1F2F8C32951DD0DF1E49A7B9F5 /* ParticleUserMFAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A691DF83CAC52E35A073F63AB7C9D112 /* ParticleSetupCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = E047162041FD2D755EE49A7BE1683D4F /* ParticleSetupCustomization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F2208AC820F8B83451385A02F8103 /* AFSecurityPolicy.m */; };
+		A7223F51282BA292773C374177DE4EAE /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC87F87F253D64458517DB3A0E298716 /* OnePasswordExtension.m */; };
+		A78199FE7D4EAE921569213A8D4EBD36 /* ParticleSetupStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F616F7593A7EF22C63AB6A1B40880AC /* ParticleSetupStrings.strings */; };
+		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3C52480AC8E6CB526B20EEDBE4BDB /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84F196843A0D326C741D84F9A3AEB31 /* ParticleSetup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18C7657404CAA33AA017476EA248C /* ParticleSetup-dummy.m */; };
+		A8988047878FBD6B90705C0B85DBA670 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DF060415B4F60ECB9235A6BA81329 /* Security.framework */; };
+		A9C6B93912D5DC3A537F8CB642278B01 /* ParticlePricingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 263C3FFF85512D072E542230A12ACB0F /* ParticlePricingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C77E308752F59C7F220EC56A1327F609 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1925EE015A05377B769CEE89BF8F72B /* ParticleUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB31954726ACB5F5C87EB56D902B7CDF /* ParticleUserLoginViewController.m */; };
+		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F052CABFED893FC2D3E28A4408805C34 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B3A9F5B3C83917110D3060F24D7373 /* AFImageDownloader.m */; };
+		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4F20CB35948DFC3EE390B35293890 /* AFURLRequestSerialization.m */; };
+		BCE00F6F0C8FFC6EE305C735990BAC0A /* ParticleConnectingProgressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9332A5B48D23A950B8E3102B583A4ADE /* ParticleConnectingProgressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2687D17A7FFB30655E15249DBDAB273 /* ParticleConnectingProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1A49E01AC559FB08F5621AFA0B3 /* ParticleConnectingProgressViewController.m */; };
+		C9E5EAB8508822BC8F26BA591730EF78 /* Pods-Curiosity-Station-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86F51FC3F7822E2A8AC59A7543A7DF /* Pods-Curiosity-Station-iOS-dummy.m */; };
+		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C89A912482CF754BB7F8216E7611533 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7E035D9A79ECA27309972B59475A24 /* ParticleSetupConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 977AF7EC74882BE57E9A06D9717D8C63 /* ParticleSetupConnection.m */; };
+		D400D1C745E8CD3E6E260D960142BA8D /* ParticleNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53685786DE34F1A0D7A9815A51BE3C /* ParticleNetwork.m */; };
+		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F02A5ED5FBC737DF3D2DAF5C2B0F8995 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D902C25787524EAC9988BD4B6E4F10 /* ParticleNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 642ED7DA415F116A679B6CF78E18381C /* ParticleNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD8488750837C5E03B4AED32F31ADF2 /* ParticleSetupUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A95E9872EEB2F2C8AA671E5855743E78 /* ParticleSetupUIButton.m */; };
+		DBEF87ADC4C2EC755AF6B7F5B4E4AD6C /* ParticleSetupStringsExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F4B91DE84B566A92E5D23107E0E54 /* ParticleSetupStringsExtensions.m */; };
+		DC03C367587D35B8430E1CAB39AF6060 /* ParticleSetupSecurityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B2D04AC0EBE20A641B0B9C05B2E8C0 /* ParticleSetupSecurityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0F525321C37037A63E792974E92CCC /* ParticleGetReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A121EEBC8E5E5C2E76D5881F3B1D0D08 /* ParticleGetReadyViewController.m */; };
+		DDD95DA997D57C78C5C530C3937862DE /* Pods-Curiosity-Station-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1063E1C56A44A0D8FFCE56E4E88C1BD1 /* Pods-Curiosity-Station-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0443CDD92DCC957EEE3C1030FB74BB4 /* EventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECB88CB8B49EC7C9721FED50BEE0AF6 /* EventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2187D967C11A57E5E59635D846323F9 /* ParticleSetupWifiTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CF71F04CA59A7AFE4C8E3DBC05B7E8B5 /* ParticleSetupWifiTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B13C1F8BCCB17FEC31092405712A9C /* ParticleSetupSecurityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F450D6B8C562050D0FB969C0F4DDE5 /* ParticleSetupSecurityManager.m */; };
+		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CF238F98AE10CAA703E2BE83F2AC5949 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B0E5408699B2A39250063BA949A20E /* ParticleSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DB71DF95CFE31E8D771CFE0B3984B7 /* ParticleSetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0059043FC2DBC657FE799CDE7383F7 /* ParticleDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB1D0D32D77908277CFBD5F7C9A17E5 /* ParticleDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC378C12F1215A3F7CAEB2C7678EAF69 /* ParticleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 805CB72549B20F5902E4A90E3CD22FD8 /* ParticleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF34AED9F6AC3B9300C9F5FA2BEB245 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A2EFE50BCB3A757E42D7EB8956DEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */; };
+		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 57401706F14D954658C35F0FBF07398F /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57523349E0033625823E7122711589F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */; };
+		F65717A5BBC93B6E556C868CBD4B90F0 /* ParticleSetupUIElements.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C34EBDE29DB1C75ED512136EA14C47 /* ParticleSetupUIElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6D7F6E5002DC82857BDCA1E254C720 /* KeychainHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDFC8925BCC9C1E2E0610E7CD987143 /* KeychainHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB744181A39F3E796820CB158E8D953C /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F168A231AA5F2B1FD6BDAA9760D59A2B /* KeychainHelper.m */; };
+		FD624DC800E37F2FD6DEC1B3147501B0 /* ParticleSetupStringsExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EF8D3B29F7B6AC782D94D74D40DD3F /* ParticleSetupStringsExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD78D722CD4C54BCA6B234B509CFD487 /* ParticleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C0B6A5D2A4248594BE39830C64C454 /* ParticleEvent.m */; };
+		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 467127BF0530EF8896A97F97A30E68A6 /* UIActivityIndicatorView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB1492035D1F30313CC8F086C7CF0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E34DB7C0B7C3F9DD81B0CFF93D50206;
+			remoteInfo = 1PasswordExtension;
+		};
+		20C438AC5E5B24F794ED06466E8AAFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5BA6BA3BFCA2F8462B26A41502BC33;
+			remoteInfo = ParticleSetup;
+		};
+		37BDD5ED35CEF3B0E249ECD68A6655B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AB791372E806C05E7AAFFFF40D6B7F;
+			remoteInfo = "Particle-SDK";
+		};
+		4A424C3F599DA4E75FD43BF0BC629B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6208D25DC48703C16058EB76004A61D6;
+			remoteInfo = "1PasswordExtension-OnePasswordExtensionResources";
+		};
+		4ECFD88A9D4704EF44ED1E70B15BBB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		956A439C1E16326CA5869A6726D63EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E34DB7C0B7C3F9DD81B0CFF93D50206;
+			remoteInfo = 1PasswordExtension;
+		};
+		ACC1DE001266302EC605F71D6EC1A397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C6EA1D20873232245ADDA5C52CC7E6;
+			remoteInfo = "ParticleSetup-ParticleSetup";
+		};
+		CD574290FDB3F3ADA4D746EAD7508C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		D0FDCF782DFF8522C7E5E4FF114D2D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AB791372E806C05E7AAFFFF40D6B7F;
+			remoteInfo = "Particle-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B6A4A2022B5AA8BC69837F2335BD56 /* ParticleSetupUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupUILabel.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupUILabel.h"; sourceTree = "<group>"; };
+		02B0E7E3BFA14431C13589703B5ECF4A /* ParticleGetLocationPermissionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleGetLocationPermissionViewController.h; path = ParticleSetup/UI/ParticleGetLocationPermissionViewController.h; sourceTree = "<group>"; };
+		034C6B1F2F8C32951DD0DF1E49A7B9F5 /* ParticleUserMFAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleUserMFAViewController.h; path = ParticleSetup/UI/ParticleUserMFAViewController.h; sourceTree = "<group>"; };
+		036470C9E3F1BC166BBC7F290A20BA23 /* 1PasswordExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "1PasswordExtension-Info.plist"; sourceTree = "<group>"; };
+		0507049ACDF7FDC0C45896EEADB8FE60 /* ParticleLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleLogger.m; path = ParticleSDK/Helpers/ParticleLogger.m; sourceTree = "<group>"; };
+		051CA5DB8957F86CD75DCDB3D6A8249B /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		0AD8311A4C80C743FAA4314C63EAAA89 /* ParticleSetup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParticleSetup.modulemap; sourceTree = "<group>"; };
+		0B92211753B0633503DA83E130C57D5F /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		0BB05A9A64FAC57518A918A981F2219D /* ParticleDeveloperAgreement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleDeveloperAgreement.h; path = ParticleSDK/SDK/ParticleDeveloperAgreement.h; sourceTree = "<group>"; };
+		0D680A14CDE60009D437D69FCE51F017 /* ParticleSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSession.m; path = ParticleSDK/SDK/ParticleSession.m; sourceTree = "<group>"; };
+		0F9A5BD196FE3DB94CED4700D9EB669C /* Pods-Curiosity-Station-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Curiosity-Station-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FA4F20CB35948DFC3EE390B35293890 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1063E1C56A44A0D8FFCE56E4E88C1BD1 /* Pods-Curiosity-Station-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Curiosity-Station-iOS-umbrella.h"; sourceTree = "<group>"; };
+		141CE87B2EE526FD28D96EA11F175ECC /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ParticleSetup/Comm/Reachability.h; sourceTree = "<group>"; };
+		151B82B9E2179051FE93B68778387BD5 /* ParticleGetLocationPermissionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleGetLocationPermissionViewController.m; path = ParticleSetup/UI/ParticleGetLocationPermissionViewController.m; sourceTree = "<group>"; };
+		1664128A2EFFC94A30FBA976092CE8B0 /* Particle-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Particle-SDK.modulemap"; sourceTree = "<group>"; };
+		18F450D6B8C562050D0FB969C0F4DDE5 /* ParticleSetupSecurityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupSecurityManager.m; path = ParticleSetup/Comm/ParticleSetupSecurityManager.m; sourceTree = "<group>"; };
+		1C5C817E4DC894C347B89178D6FED4FD /* ParticleSetupPasswordEntryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupPasswordEntryViewController.m; path = ParticleSetup/UI/ParticleSetupPasswordEntryViewController.m; sourceTree = "<group>"; };
+		1C89A912482CF754BB7F8216E7611533 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		1D5C86240C376213D911C85D963CC2EB /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		1F790C20C716B123E52272442FEDFD80 /* ParticleSetupSpacerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupSpacerView.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupSpacerView.h"; sourceTree = "<group>"; };
+		21C565079B7101CE2ACC54694AF24AF6 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		22F8C3B8074B2221FAC4DBADEBAC966D /* ParticleUserForgotPasswordViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleUserForgotPasswordViewController.m; path = ParticleSetup/UI/ParticleUserForgotPasswordViewController.m; sourceTree = "<group>"; };
+		23AA609B30461A78D4E4286CE8ED2D72 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ParticleSetup/Comm/Reachability.m; sourceTree = "<group>"; };
+		263C3FFF85512D072E542230A12ACB0F /* ParticlePricingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticlePricingInfo.h; path = ParticleSDK/SDK/ParticlePricingInfo.h; sourceTree = "<group>"; };
+		27C33D0A29D186770DAC2CF6CFFB6BC8 /* setup.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = setup.xcassets; path = ParticleSetupResources/setup.xcassets; sourceTree = "<group>"; };
+		28B09B8C32F6AF10D88E4D34E28383F0 /* ParticleSetupStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupStrings.h; path = ParticleSetup/User/ParticleSetupStrings.h; sourceTree = "<group>"; };
+		29AEC26158EB97B5787416CAE2565A4C /* ParticleSetupUIViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupUIViewController.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupUIViewController.h"; sourceTree = "<group>"; };
+		2AF34AED9F6AC3B9300C9F5FA2BEB245 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		2B2DD950A01EA7778723A96DC41F6307 /* ParticleSetup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParticleSetup-umbrella.h"; sourceTree = "<group>"; };
+		2E328C508DCB25F140952920CE764F6F /* ParticleErrorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleErrorHelper.m; path = ParticleSDK/Helpers/ParticleErrorHelper.m; sourceTree = "<group>"; };
+		308DD217EA30964FA7588061AC145AA9 /* ParticleSimInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSimInfo.h; path = ParticleSDK/SDK/ParticleSimInfo.h; sourceTree = "<group>"; };
+		313112C373AA057140A34D578F12CABE /* Particle-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Particle-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		31496F7A20FF3A5C700908038D1059C6 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
+		315D0339A2786B95AADC71C07B89CDD7 /* Particle-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Particle-SDK-umbrella.h"; sourceTree = "<group>"; };
+		324C41156112F72B268237082C508D58 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		3260F24C009F93BEC941DF6EDD7DC8E7 /* ParticleSetup.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ParticleSetup.bundle; path = "ParticleSetup-ParticleSetup.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35126897A08AA8B8178A8EEF6EC85E70 /* Particle-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Particle-SDK-dummy.m"; sourceTree = "<group>"; };
+		35EB2CAB6D7092A35A22717870EFAE81 /* ParticleSetupVideoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupVideoViewController.h; path = ParticleSetup/UI/ParticleSetupVideoViewController.h; sourceTree = "<group>"; };
+		3BC299D3FB68C61DAA787357E98AD380 /* ParticleSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParticleSetup.debug.xcconfig; sourceTree = "<group>"; };
+		3CC18C7657404CAA33AA017476EA248C /* ParticleSetup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParticleSetup-dummy.m"; sourceTree = "<group>"; };
+		3ECB88CB8B49EC7C9721FED50BEE0AF6 /* EventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventSource.h; path = ParticleSDK/Helpers/EventSource.h; sourceTree = "<group>"; };
+		3F5C3920433EDFE7B7CD331D21D66956 /* ParticleSetupCommManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupCommManager.h; path = ParticleSetup/Comm/ParticleSetupCommManager.h; sourceTree = "<group>"; };
+		467127BF0530EF8896A97F97A30E68A6 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		46A6FE3F4E4603D280F2F185F40902AD /* ParticleManualNetworkViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleManualNetworkViewController.m; path = ParticleSetup/UI/ParticleManualNetworkViewController.m; sourceTree = "<group>"; };
+		4C06AE449E32DB4B0D7D60D1D75192F9 /* ParticleSetupConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupConnection.h; path = ParticleSetup/Comm/ParticleSetupConnection.h; sourceTree = "<group>"; };
+		4CDF48D7AAFB4DED2A3A1EA6A9AB5A09 /* Pods-Curiosity-Station-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Curiosity-Station-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F616F7593A7EF22C63AB6A1B40880AC /* ParticleSetupStrings.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ParticleSetupStrings.strings; path = ParticleSetupResources/ParticleSetupStrings.strings; sourceTree = "<group>"; };
+		4FB1F139CBD203621FA36E883D215499 /* ParticleUserForgotPasswordViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleUserForgotPasswordViewController.h; path = ParticleSetup/UI/ParticleUserForgotPasswordViewController.h; sourceTree = "<group>"; };
+		501C4CECE5F7C838C9996BDE08EB0781 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		50BF43096BE20E4192E15E873190CB13 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		5155AF1311B0FE873702C2A77C54E2F7 /* Pods_Curiosity_Station_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Curiosity_Station_iOS.framework; path = "Pods-Curiosity-Station-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Particle_SDK.framework; path = "Particle-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558BA457C9EA82E465F90B9E47CF01F8 /* ParticleSetupSpacerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupSpacerView.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupSpacerView.m"; sourceTree = "<group>"; };
+		56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnePasswordExtension.framework; path = 1PasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570CC08ED520CE6F8D78DA259F7F54AD /* ParticleCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleCloud.h; path = ParticleSDK/SDK/ParticleCloud.h; sourceTree = "<group>"; };
+		572F7A539A4FB8920D64650A2D8A0F9D /* Particle-SDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Particle-SDK.h"; path = "ParticleSDK/Particle-SDK.h"; sourceTree = "<group>"; };
+		5736AF74ACE3F80215D4136EB40098AB /* ParticleSetupResultViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupResultViewController.h; path = ParticleSetup/UI/ParticleSetupResultViewController.h; sourceTree = "<group>"; };
+		57401706F14D954658C35F0FBF07398F /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		57B28F8DED787A06C20D61FAD6C86D6B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		57DA64CE486AEFB849F481BE0BFF8554 /* ParticleSetupUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupUIButton.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupUIButton.h"; sourceTree = "<group>"; };
+		58BC277ACB6D52929BAEEC33383B9812 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		5AC4D696E2937D73E295BC52C10A4FDC /* EventSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EventSource.m; path = ParticleSDK/Helpers/EventSource.m; sourceTree = "<group>"; };
+		5D58DBEC328827FB7D1DF34C1357C90C /* 1PasswordExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = 1PasswordExtension.modulemap; sourceTree = "<group>"; };
+		5F76A9E3E954B6EDD2A13F9439A7E0B3 /* 1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
+		60C34B2DBA18F47D0EF2C2FD602F0EC9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		613DC1A49E01AC559FB08F5621AFA0B3 /* ParticleConnectingProgressViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleConnectingProgressViewController.m; path = ParticleSetup/UI/ParticleConnectingProgressViewController.m; sourceTree = "<group>"; };
+		63A60CC1726E0AD8D60ADE6D530289ED /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		642ED7DA415F116A679B6CF78E18381C /* ParticleNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleNetwork.h; path = ParticleSDK/SDK/ParticleNetwork.h; sourceTree = "<group>"; };
+		65333DE55C1A030D4778D6CAAD041B43 /* Pods-Curiosity-Station-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Curiosity-Station-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		669936B27217C84BCCE3FF85B87DF5E3 /* ParticleDiscoverDeviceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleDiscoverDeviceViewController.m; path = ParticleSetup/UI/ParticleDiscoverDeviceViewController.m; sourceTree = "<group>"; };
+		6729CDACB0D16CE951467F3A843BA2E8 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		6A13D100C487DCC34B84E7D5C292803D /* ParticleCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleCloud.m; path = ParticleSDK/SDK/ParticleCloud.m; sourceTree = "<group>"; };
+		6C05E2530B64E02F27E5B6CD35F9D148 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		6C648867960010B3A46AB5CFB5E99F3A /* ParticleSetupUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupUILabel.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupUILabel.m"; sourceTree = "<group>"; };
+		6CB1D0D32D77908277CFBD5F7C9A17E5 /* ParticleDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleDevice.h; path = ParticleSDK/SDK/ParticleDevice.h; sourceTree = "<group>"; };
+		6FE9034B49B371F5C9989DBB4D8F34D0 /* ParticleUserSignupViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleUserSignupViewController.m; path = ParticleSetup/UI/ParticleUserSignupViewController.m; sourceTree = "<group>"; };
+		705F2208AC820F8B83451385A02F8103 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7518D91354028C5048B7D2B1402EF1B7 /* Pods-Curiosity-Station-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Curiosity-Station-iOS.modulemap"; sourceTree = "<group>"; };
+		783DF060415B4F60ECB9235A6BA81329 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		78EEA89EA738EDC65C9490F41CE99324 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		7BDFC8925BCC9C1E2E0610E7CD987143 /* KeychainHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeychainHelper.h; path = ParticleSDK/Helpers/KeychainHelper.h; sourceTree = "<group>"; };
+		7EAED40A610961E32C1DE580C580F618 /* Pods-Curiosity-Station-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Curiosity-Station-iOS-Info.plist"; sourceTree = "<group>"; };
+		7F22FCB3A9AC5098C69FF36B9944E100 /* Particle_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Particle_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F86F51FC3F7822E2A8AC59A7543A7DF /* Pods-Curiosity-Station-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Curiosity-Station-iOS-dummy.m"; sourceTree = "<group>"; };
+		7FCDFCDC3F8F344555FD70EA2BF5175A /* ParticleSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParticleSetup.framework; path = ParticleSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805CB72549B20F5902E4A90E3CD22FD8 /* ParticleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleLogger.h; path = ParticleSDK/Helpers/ParticleLogger.h; sourceTree = "<group>"; };
+		80CC63FA6DC77852EE20D815DAB3F837 /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
+		83DB5D040EE5757738F54A1766F15C1A /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		83EFCC106B7180DAF3F46672EC3B930C /* ParticleManualNetworkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleManualNetworkViewController.h; path = ParticleSetup/UI/ParticleManualNetworkViewController.h; sourceTree = "<group>"; };
+		842885DBD8332414B24F343998F61EFD /* ParticleSimInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSimInfo.m; path = ParticleSDK/SDK/ParticleSimInfo.m; sourceTree = "<group>"; };
+		84725C0DB8BC49FE0E400FF6D87ED190 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		850E41EBC8C99CA90DDB194D6FEBBD8B /* ParticleSetupCommManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupCommManager.m; path = ParticleSetup/Comm/ParticleSetupCommManager.m; sourceTree = "<group>"; };
+		85B7EFF6CFC05DA1AB7656F47FFFD192 /* ParticleSetup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParticleSetup-prefix.pch"; sourceTree = "<group>"; };
+		86E8948846BCA1E37E3B4AA06E9F3539 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		8952C8CE2327F1889048DA5D0BD6AF15 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		896ED1DDC92C9271F200F44A330E0E6B /* ParticleDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleDevice.m; path = ParticleSDK/SDK/ParticleDevice.m; sourceTree = "<group>"; };
+		89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A0168506463259BD4C00D1AC20ED999 /* ParticleSetupUIViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupUIViewController.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupUIViewController.m"; sourceTree = "<group>"; };
+		8EBB4390A230CBE170C5CDCE7D955A51 /* 1PasswordExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = 1PasswordExtension.debug.xcconfig; sourceTree = "<group>"; };
+		8F27478CFD8E0C81318BD8B9683F9879 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9031B18AA65CCAE899C48DD58D29C777 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9107D35C134DB7DCCC07B4CCF25C66B6 /* ParticleSelectNetworkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSelectNetworkViewController.h; path = ParticleSetup/UI/ParticleSelectNetworkViewController.h; sourceTree = "<group>"; };
+		911941DD9BD0179477568B983F6CE79B /* 1PasswordExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-umbrella.h"; sourceTree = "<group>"; };
+		9332A5B48D23A950B8E3102B583A4ADE /* ParticleConnectingProgressViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleConnectingProgressViewController.h; path = ParticleSetup/UI/ParticleConnectingProgressViewController.h; sourceTree = "<group>"; };
+		938E7C81EF6FA92232D1C986AA7B74CA /* Pods-Curiosity-Station-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Curiosity-Station-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		95EAD5CDCE4E6B991A5937DDE78ED4ED /* ParticleUserLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleUserLoginViewController.h; path = ParticleSetup/UI/ParticleUserLoginViewController.h; sourceTree = "<group>"; };
+		964E1749E1A288622B123563039E72A6 /* setup.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = setup.storyboard; path = ParticleSetupResources/setup.storyboard; sourceTree = "<group>"; };
+		9679B27A19501B481172670992DEB8B6 /* ParticleGetReadyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleGetReadyViewController.h; path = ParticleSetup/UI/ParticleGetReadyViewController.h; sourceTree = "<group>"; };
+		96FA60A1E7B9725D527252D0EE733754 /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
+		977AF7EC74882BE57E9A06D9717D8C63 /* ParticleSetupConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupConnection.m; path = ParticleSetup/Comm/ParticleSetupConnection.m; sourceTree = "<group>"; };
+		9990DAC23727DCE33E717C549B553DEB /* ParticleUserSignupViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleUserSignupViewController.h; path = ParticleSetup/UI/ParticleUserSignupViewController.h; sourceTree = "<group>"; };
+		9C53685786DE34F1A0D7A9815A51BE3C /* ParticleNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleNetwork.m; path = ParticleSDK/SDK/ParticleNetwork.m; sourceTree = "<group>"; };
+		9CB9387A3C1B4D5036C1671FE2FAC4E6 /* ParticleUserMFAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleUserMFAViewController.m; path = ParticleSetup/UI/ParticleUserMFAViewController.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03F83C56F12F2DA96125EAD4ED96326 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		A121EEBC8E5E5C2E76D5881F3B1D0D08 /* ParticleGetReadyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleGetReadyViewController.m; path = ParticleSetup/UI/ParticleGetReadyViewController.m; sourceTree = "<group>"; };
+		A12BF4487702B390C4209765AF3C285A /* Pods-Curiosity-Station-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Curiosity-Station-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		A3C04157DD62EFD6CE7EB6161F2B01EB /* ParticleSelectNetworkViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSelectNetworkViewController.m; path = ParticleSetup/UI/ParticleSelectNetworkViewController.m; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0B6A5D2A4248594BE39830C64C454 /* ParticleEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleEvent.m; path = ParticleSDK/SDK/ParticleEvent.m; sourceTree = "<group>"; };
+		A5DB71DF95CFE31E8D771CFE0B3984B7 /* ParticleSetup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetup.h; path = ParticleSetup/ParticleSetup.h; sourceTree = "<group>"; };
+		A649772472EAB652F838D79671DF2DCF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A6678647F55AE90E715A8FC5056924CD /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		A95E9872EEB2F2C8AA671E5855743E78 /* ParticleSetupUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupUIButton.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupUIButton.m"; sourceTree = "<group>"; };
+		AB31954726ACB5F5C87EB56D902B7CDF /* ParticleUserLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleUserLoginViewController.m; path = ParticleSetup/UI/ParticleUserLoginViewController.m; sourceTree = "<group>"; };
+		AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OnePasswordExtensionResources.bundle; path = "1PasswordExtension-OnePasswordExtensionResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E5C5A9DE845D7F1584E2C2D898434 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC4DFE625DBF1A2830CFDA4630D4C39D /* ParticleDiscoverDeviceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleDiscoverDeviceViewController.h; path = ParticleSetup/UI/ParticleDiscoverDeviceViewController.h; sourceTree = "<group>"; };
+		ACFE8AAE9F717A2C839157F8D2D08919 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF76B333D739C75D0A2373623CDA5C60 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B0F29F1504E88CF348CA4647D71D95BF /* ParticleSetupWifiTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupWifiTableViewCell.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupWifiTableViewCell.m"; sourceTree = "<group>"; };
+		B59F5F4CA30EB0A7AEA09CA29B783311 /* ParticleSetupWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupWebViewController.h; path = ParticleSetup/UI/ParticleSetupWebViewController.h; sourceTree = "<group>"; };
+		B5E879950A8CD5BA77BB3F83D0161FA3 /* ParticlePricingInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticlePricingInfo.m; path = ParticleSDK/SDK/ParticlePricingInfo.m; sourceTree = "<group>"; };
+		B61BDFFE31A153ACFD9102D93A42A6AD /* ParticleSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParticleSetup.release.xcconfig; sourceTree = "<group>"; };
+		BC63BE881DE8AAB74D668E243688D328 /* ParticleSetupWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupWebViewController.m; path = ParticleSetup/UI/ParticleSetupWebViewController.m; sourceTree = "<group>"; };
+		BF072F3490AF103E6A6AAC9B45DEB7F7 /* Particle-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Particle-SDK-prefix.pch"; sourceTree = "<group>"; };
+		BF8F4B91DE84B566A92E5D23107E0E54 /* ParticleSetupStringsExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupStringsExtensions.m; path = ParticleSetup/UI/Extensions/ParticleSetupStringsExtensions.m; sourceTree = "<group>"; };
+		C07697E3E43177C26614E8509CE024F7 /* ParticleSetupPasswordEntryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupPasswordEntryViewController.h; path = ParticleSetup/UI/ParticleSetupPasswordEntryViewController.h; sourceTree = "<group>"; };
+		C0C92F84D9CA52EA493BB8A0D4FB4D9D /* ParticleSetupUISpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupUISpinner.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupUISpinner.h"; sourceTree = "<group>"; };
+		C2B2D04AC0EBE20A641B0B9C05B2E8C0 /* ParticleSetupSecurityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupSecurityManager.h; path = ParticleSetup/Comm/ParticleSetupSecurityManager.h; sourceTree = "<group>"; };
+		C624C54C269865277ABA1EF35826AB3C /* ParticleSetup-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ParticleSetup-Bridging-Header.h"; path = "ParticleSetup/ParticleSetup-Bridging-Header.h"; sourceTree = "<group>"; };
+		C77E308752F59C7F220EC56A1327F609 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C840D76AA30D04D4535D31DA75460FD5 /* ParticleSetup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ParticleSetup-Info.plist"; sourceTree = "<group>"; };
+		CE4FB2F6B46AE4AA9C96E391452BF025 /* Particle-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Particle-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB8073B1A1DEA1651B4987123DA471B /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CF238F98AE10CAA703E2BE83F2AC5949 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CF71F04CA59A7AFE4C8E3DBC05B7E8B5 /* ParticleSetupWifiTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupWifiTableViewCell.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupWifiTableViewCell.h"; sourceTree = "<group>"; };
+		D0776CFD5209E465847AC330F8BE53B3 /* ParticleSetupMainController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupMainController.m; path = ParticleSetup/User/ParticleSetupMainController.m; sourceTree = "<group>"; };
+		D2A7CE48C05CD1C2B249994D957CBD34 /* ParticleSetupResultViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupResultViewController.m; path = ParticleSetup/UI/ParticleSetupResultViewController.m; sourceTree = "<group>"; };
+		D346A8141C7D5E7DBF768C81BD24E107 /* ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist"; sourceTree = "<group>"; };
+		D5EDDD5D2F5F2E46481465D4F7DF66A3 /* ParticleSetupUISpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupUISpinner.m; path = "ParticleSetup/UI/UI Elements/ParticleSetupUISpinner.m"; sourceTree = "<group>"; };
+		D637AE0A99D27105526B754BCB163836 /* Particle-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Particle-SDK-Info.plist"; sourceTree = "<group>"; };
+		D7B3A9F5B3C83917110D3060F24D7373 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		D9A36BDAD411466EB83C7D6996E80DAF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DB750DC222740AC912FF80A9CBBE5712 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		DB773BD51098E042E9281761FF41B4D4 /* ParticleEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleEvent.h; path = ParticleSDK/SDK/ParticleEvent.h; sourceTree = "<group>"; };
+		DC87F87F253D64458517DB3A0E298716 /* OnePasswordExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OnePasswordExtension.m; sourceTree = "<group>"; };
+		DE51B4FA5AF838D1D1BF815B8A6D8F11 /* ParticleSetupCustomization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupCustomization.m; path = ParticleSetup/User/ParticleSetupCustomization.m; sourceTree = "<group>"; };
+		DF8189226888C684C3B6D7EE6C7B6B8F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047162041FD2D755EE49A7BE1683D4F /* ParticleSetupCustomization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupCustomization.h; path = ParticleSetup/User/ParticleSetupCustomization.h; sourceTree = "<group>"; };
+		E105F0C1E7BC0C123D46655EB7C1655F /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14430595C6DE53E2080753DD68DCA84 /* ParticleSetupVideoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleSetupVideoViewController.m; path = ParticleSetup/UI/ParticleSetupVideoViewController.m; sourceTree = "<group>"; };
+		E2EF8D3B29F7B6AC782D94D74D40DD3F /* ParticleSetupStringsExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupStringsExtensions.h; path = ParticleSetup/UI/Extensions/ParticleSetupStringsExtensions.h; sourceTree = "<group>"; };
+		E44810DFB778B8166D258EB43B82E076 /* ParticleDeveloperAgreement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParticleDeveloperAgreement.m; path = ParticleSDK/SDK/ParticleDeveloperAgreement.m; sourceTree = "<group>"; };
+		E6142727A58BDD84C9672C9AAFB9B911 /* ParticleSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSession.h; path = ParticleSDK/SDK/ParticleSession.h; sourceTree = "<group>"; };
+		E6D65E0A4F402CC51082EA5FD63E56B4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E7C34EBDE29DB1C75ED512136EA14C47 /* ParticleSetupUIElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupUIElements.h; path = "ParticleSetup/UI/UI Elements/ParticleSetupUIElements.h"; sourceTree = "<group>"; };
+		E922AE1E457C5F76DC2050B7A547B850 /* ParticleSetupMainController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleSetupMainController.h; path = ParticleSetup/User/ParticleSetupMainController.h; sourceTree = "<group>"; };
+		EB065EEF5CBD203C9B592455C8B667C8 /* ParticleErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParticleErrorHelper.h; path = ParticleSDK/Helpers/ParticleErrorHelper.h; sourceTree = "<group>"; };
+		F02A5ED5FBC737DF3D2DAF5C2B0F8995 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		F052CABFED893FC2D3E28A4408805C34 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		F168A231AA5F2B1FD6BDAA9760D59A2B /* KeychainHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeychainHelper.m; path = ParticleSDK/Helpers/KeychainHelper.m; sourceTree = "<group>"; };
+		F2AD9558BCBCB7F57C37F2D4CE649FD5 /* 1PasswordExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = 1PasswordExtension.release.xcconfig; sourceTree = "<group>"; };
+		F2D3C52480AC8E6CB526B20EEDBE4BDB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		F56178A43AB208801A9EC148A660E726 /* ResourceBundle-ParticleSetup-ParticleSetup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ParticleSetup-ParticleSetup-Info.plist"; sourceTree = "<group>"; };
+		FC3547B7570A8F4D9448F2822F392F56 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11717FE67837680EE8B3FB45F1B1961F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6CFD30DDC8B8F003FA09C6A91C63C0 /* AFNetworking.framework in Frameworks */,
+				91AE3C78DD95EC75AC9FC9FA4C567106 /* Foundation.framework in Frameworks */,
+				407DAE6ED7BA3CE1093C13C6608D99BC /* Security.framework in Frameworks */,
+				42DCE3CE0029923BD3F20BB561A1166E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A43FBCA738CA273DD108BD7C5E8FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57523349E0033625823E7122711589F /* Foundation.framework in Frameworks */,
+				1536F2D9F4A646F0A27FE109CE4BC917 /* OnePasswordExtension.framework in Frameworks */,
+				7EA90176DC1908D9014BC010E3210230 /* Particle_SDK.framework in Frameworks */,
+				A8988047878FBD6B90705C0B85DBA670 /* Security.framework in Frameworks */,
+				A307CE42172CE7FD1AF415365AF8B5B1 /* SystemConfiguration.framework in Frameworks */,
+				61A83501B2189060C50949CC67E7B35A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7789975A803FAC41B68BBA4007F8B14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A2EFE50BCB3A757E42D7EB8956DEA9 /* Foundation.framework in Frameworks */,
+				0CEA9E484BA0D6E30CCEED4FF80D328D /* MobileCoreServices.framework in Frameworks */,
+				6438CC8C6E68EC8BA00C464B4C18D2ED /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9BCCCF510F65077210B8D9944565EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E252F6D35B1106EBEFA6DEADF3E2C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBBE10BD5B9800357DD44F09210B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4C05085EE29AC3F723231386DFDDB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C800B981F13220008FFD9791055326EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01755DA6826A72EE83703016B7564348 /* ParticleSetup */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB71DF95CFE31E8D771CFE0B3984B7 /* ParticleSetup.h */,
+				C624C54C269865277ABA1EF35826AB3C /* ParticleSetup-Bridging-Header.h */,
+				45E15A3B40E1566F5C1712ADBD07787B /* Comm */,
+				8A928EA110855393AE58995659CE94AE /* Core */,
+				CF56AD8FF1BE78A9D29FA6093AF87AA0 /* Resources */,
+				12859E05829680DDE5AB121D7961C2A1 /* Support Files */,
+			);
+			name = ParticleSetup;
+			path = ParticleSetup;
+			sourceTree = "<group>";
+		};
+		045998773FA25BADB74AE9F3C4710305 /* Pods-Curiosity-Station-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7518D91354028C5048B7D2B1402EF1B7 /* Pods-Curiosity-Station-iOS.modulemap */,
+				0F9A5BD196FE3DB94CED4700D9EB669C /* Pods-Curiosity-Station-iOS-acknowledgements.markdown */,
+				938E7C81EF6FA92232D1C986AA7B74CA /* Pods-Curiosity-Station-iOS-acknowledgements.plist */,
+				7F86F51FC3F7822E2A8AC59A7543A7DF /* Pods-Curiosity-Station-iOS-dummy.m */,
+				A12BF4487702B390C4209765AF3C285A /* Pods-Curiosity-Station-iOS-frameworks.sh */,
+				7EAED40A610961E32C1DE580C580F618 /* Pods-Curiosity-Station-iOS-Info.plist */,
+				1063E1C56A44A0D8FFCE56E4E88C1BD1 /* Pods-Curiosity-Station-iOS-umbrella.h */,
+				4CDF48D7AAFB4DED2A3A1EA6A9AB5A09 /* Pods-Curiosity-Station-iOS.debug.xcconfig */,
+				65333DE55C1A030D4778D6CAAD041B43 /* Pods-Curiosity-Station-iOS.release.xcconfig */,
+			);
+			name = "Pods-Curiosity-Station-iOS";
+			path = "Target Support Files/Pods-Curiosity-Station-iOS";
+			sourceTree = "<group>";
+		};
+		04DB72B4C060F4D3B0C8124C4D860904 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				570CC08ED520CE6F8D78DA259F7F54AD /* ParticleCloud.h */,
+				6A13D100C487DCC34B84E7D5C292803D /* ParticleCloud.m */,
+				0BB05A9A64FAC57518A918A981F2219D /* ParticleDeveloperAgreement.h */,
+				E44810DFB778B8166D258EB43B82E076 /* ParticleDeveloperAgreement.m */,
+				6CB1D0D32D77908277CFBD5F7C9A17E5 /* ParticleDevice.h */,
+				896ED1DDC92C9271F200F44A330E0E6B /* ParticleDevice.m */,
+				DB773BD51098E042E9281761FF41B4D4 /* ParticleEvent.h */,
+				A5C0B6A5D2A4248594BE39830C64C454 /* ParticleEvent.m */,
+				642ED7DA415F116A679B6CF78E18381C /* ParticleNetwork.h */,
+				9C53685786DE34F1A0D7A9815A51BE3C /* ParticleNetwork.m */,
+				263C3FFF85512D072E542230A12ACB0F /* ParticlePricingInfo.h */,
+				B5E879950A8CD5BA77BB3F83D0161FA3 /* ParticlePricingInfo.m */,
+				E6142727A58BDD84C9672C9AAFB9B911 /* ParticleSession.h */,
+				0D680A14CDE60009D437D69FCE51F017 /* ParticleSession.m */,
+				308DD217EA30964FA7588061AC145AA9 /* ParticleSimInfo.h */,
+				842885DBD8332414B24F343998F61EFD /* ParticleSimInfo.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		06347B574FB039066BF2E91715A3C3B5 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				57401706F14D954658C35F0FBF07398F /* AFCompatibilityMacros.h */,
+				1C89A912482CF754BB7F8216E7611533 /* AFHTTPSessionManager.h */,
+				8952C8CE2327F1889048DA5D0BD6AF15 /* AFHTTPSessionManager.m */,
+				F2D3C52480AC8E6CB526B20EEDBE4BDB /* AFURLSessionManager.h */,
+				FC3547B7570A8F4D9448F2822F392F56 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		12859E05829680DDE5AB121D7961C2A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8311A4C80C743FAA4314C63EAAA89 /* ParticleSetup.modulemap */,
+				3CC18C7657404CAA33AA017476EA248C /* ParticleSetup-dummy.m */,
+				C840D76AA30D04D4535D31DA75460FD5 /* ParticleSetup-Info.plist */,
+				85B7EFF6CFC05DA1AB7656F47FFFD192 /* ParticleSetup-prefix.pch */,
+				2B2DD950A01EA7778723A96DC41F6307 /* ParticleSetup-umbrella.h */,
+				3BC299D3FB68C61DAA787357E98AD380 /* ParticleSetup.debug.xcconfig */,
+				B61BDFFE31A153ACFD9102D93A42A6AD /* ParticleSetup.release.xcconfig */,
+				F56178A43AB208801A9EC148A660E726 /* ResourceBundle-ParticleSetup-ParticleSetup-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ParticleSetup";
+			sourceTree = "<group>";
+		};
+		182C870226548C1586D4179E1F6FD0AD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F02A5ED5FBC737DF3D2DAF5C2B0F8995 /* AFNetworking.h */,
+				06347B574FB039066BF2E91715A3C3B5 /* NSURLSession */,
+				3BBEF88530A9BB923E8BE22C272DF6FA /* Reachability */,
+				AC8835C3D01B5D59083856CBEF1AABA4 /* Security */,
+				DD7888D66B5705FC5858C134FD810D2A /* Serialization */,
+				30D6CCDFBFDA0B31CCCCFF237E28DAF8 /* Support Files */,
+				3E3655761140B424D239E78F33961134 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		2812D164E9CA52E2E71BFD824500F136 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1664128A2EFFC94A30FBA976092CE8B0 /* Particle-SDK.modulemap */,
+				35126897A08AA8B8178A8EEF6EC85E70 /* Particle-SDK-dummy.m */,
+				D637AE0A99D27105526B754BCB163836 /* Particle-SDK-Info.plist */,
+				BF072F3490AF103E6A6AAC9B45DEB7F7 /* Particle-SDK-prefix.pch */,
+				315D0339A2786B95AADC71C07B89CDD7 /* Particle-SDK-umbrella.h */,
+				CE4FB2F6B46AE4AA9C96E391452BF025 /* Particle-SDK.debug.xcconfig */,
+				313112C373AA057140A34D578F12CABE /* Particle-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Particle-SDK";
+			sourceTree = "<group>";
+		};
+		30D6CCDFBFDA0B31CCCCFF237E28DAF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A60CC1726E0AD8D60ADE6D530289ED /* AFNetworking.modulemap */,
+				DB750DC222740AC912FF80A9CBBE5712 /* AFNetworking-dummy.m */,
+				6729CDACB0D16CE951467F3A843BA2E8 /* AFNetworking-Info.plist */,
+				A6678647F55AE90E715A8FC5056924CD /* AFNetworking-prefix.pch */,
+				50BF43096BE20E4192E15E873190CB13 /* AFNetworking-umbrella.h */,
+				1D5C86240C376213D911C85D963CC2EB /* AFNetworking.debug.xcconfig */,
+				6C05E2530B64E02F27E5B6CD35F9D148 /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		360C017C3CAD30A43C1BB05E1AD75A52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				045998773FA25BADB74AE9F3C4710305 /* Pods-Curiosity-Station-iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3BBEF88530A9BB923E8BE22C272DF6FA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E6D65E0A4F402CC51082EA5FD63E56B4 /* AFNetworkReachabilityManager.h */,
+				A649772472EAB652F838D79671DF2DCF /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3D52DCD8008E410C29AB950504A38B4A /* 1PasswordExtension */ = {
+			isa = PBXGroup;
+			children = (
+				31496F7A20FF3A5C700908038D1059C6 /* OnePasswordExtension.h */,
+				DC87F87F253D64458517DB3A0E298716 /* OnePasswordExtension.m */,
+				6E87CB8ADB5FE0FE4A78DC4678356D46 /* Resources */,
+				906CDC4005808D34A3AF5749D7C5165C /* Support Files */,
+			);
+			name = 1PasswordExtension;
+			path = 1PasswordExtension;
+			sourceTree = "<group>";
+		};
+		3E3655761140B424D239E78F33961134 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				58BC277ACB6D52929BAEEC33383B9812 /* AFAutoPurgingImageCache.h */,
+				501C4CECE5F7C838C9996BDE08EB0781 /* AFAutoPurgingImageCache.m */,
+				F052CABFED893FC2D3E28A4408805C34 /* AFImageDownloader.h */,
+				D7B3A9F5B3C83917110D3060F24D7373 /* AFImageDownloader.m */,
+				57B28F8DED787A06C20D61FAD6C86D6B /* AFNetworkActivityIndicatorManager.h */,
+				21C565079B7101CE2ACC54694AF24AF6 /* AFNetworkActivityIndicatorManager.m */,
+				CF238F98AE10CAA703E2BE83F2AC5949 /* UIActivityIndicatorView+AFNetworking.h */,
+				467127BF0530EF8896A97F97A30E68A6 /* UIActivityIndicatorView+AFNetworking.m */,
+				9031B18AA65CCAE899C48DD58D29C777 /* UIButton+AFNetworking.h */,
+				78EEA89EA738EDC65C9490F41CE99324 /* UIButton+AFNetworking.m */,
+				2AF34AED9F6AC3B9300C9F5FA2BEB245 /* UIImageView+AFNetworking.h */,
+				8F27478CFD8E0C81318BD8B9683F9879 /* UIImageView+AFNetworking.m */,
+				83DB5D040EE5757738F54A1766F15C1A /* UIKit+AFNetworking.h */,
+				86E8948846BCA1E37E3B4AA06E9F3539 /* UIProgressView+AFNetworking.h */,
+				AB7E5C5A9DE845D7F1584E2C2D898434 /* UIProgressView+AFNetworking.m */,
+				324C41156112F72B268237082C508D58 /* UIRefreshControl+AFNetworking.h */,
+				CEB8073B1A1DEA1651B4987123DA471B /* UIRefreshControl+AFNetworking.m */,
+				051CA5DB8957F86CD75DCDB3D6A8249B /* WKWebView+AFNetworking.h */,
+				0B92211753B0633503DA83E130C57D5F /* WKWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		45E15A3B40E1566F5C1712ADBD07787B /* Comm */ = {
+			isa = PBXGroup;
+			children = (
+				3F5C3920433EDFE7B7CD331D21D66956 /* ParticleSetupCommManager.h */,
+				850E41EBC8C99CA90DDB194D6FEBBD8B /* ParticleSetupCommManager.m */,
+				4C06AE449E32DB4B0D7D60D1D75192F9 /* ParticleSetupConnection.h */,
+				977AF7EC74882BE57E9A06D9717D8C63 /* ParticleSetupConnection.m */,
+				C2B2D04AC0EBE20A641B0B9C05B2E8C0 /* ParticleSetupSecurityManager.h */,
+				18F450D6B8C562050D0FB969C0F4DDE5 /* ParticleSetupSecurityManager.m */,
+				141CE87B2EE526FD28D96EA11F175ECC /* Reachability.h */,
+				23AA609B30461A78D4E4286CE8ED2D72 /* Reachability.m */,
+			);
+			name = Comm;
+			sourceTree = "<group>";
+		};
+		6E87CB8ADB5FE0FE4A78DC4678356D46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80CC63FA6DC77852EE20D815DAB3F837 /* 1Password.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7661A927F0AE9B907134E47C8D795F05 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89F1C8658641ABF83C826E1F14EB9784 /* Foundation.framework */,
+				A03F83C56F12F2DA96125EAD4ED96326 /* MobileCoreServices.framework */,
+				783DF060415B4F60ECB9235A6BA81329 /* Security.framework */,
+				84725C0DB8BC49FE0E400FF6D87ED190 /* SystemConfiguration.framework */,
+				ACFE8AAE9F717A2C839157F8D2D08919 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E66175B992E9E6092BB827299E60AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */,
+				AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */,
+				537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */,
+				3260F24C009F93BEC941DF6EDD7DC8E7 /* ParticleSetup.bundle */,
+				7FCDFCDC3F8F344555FD70EA2BF5175A /* ParticleSetup.framework */,
+				5155AF1311B0FE873702C2A77C54E2F7 /* Pods_Curiosity_Station_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A928EA110855393AE58995659CE94AE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9332A5B48D23A950B8E3102B583A4ADE /* ParticleConnectingProgressViewController.h */,
+				613DC1A49E01AC559FB08F5621AFA0B3 /* ParticleConnectingProgressViewController.m */,
+				AC4DFE625DBF1A2830CFDA4630D4C39D /* ParticleDiscoverDeviceViewController.h */,
+				669936B27217C84BCCE3FF85B87DF5E3 /* ParticleDiscoverDeviceViewController.m */,
+				02B0E7E3BFA14431C13589703B5ECF4A /* ParticleGetLocationPermissionViewController.h */,
+				151B82B9E2179051FE93B68778387BD5 /* ParticleGetLocationPermissionViewController.m */,
+				9679B27A19501B481172670992DEB8B6 /* ParticleGetReadyViewController.h */,
+				A121EEBC8E5E5C2E76D5881F3B1D0D08 /* ParticleGetReadyViewController.m */,
+				83EFCC106B7180DAF3F46672EC3B930C /* ParticleManualNetworkViewController.h */,
+				46A6FE3F4E4603D280F2F185F40902AD /* ParticleManualNetworkViewController.m */,
+				9107D35C134DB7DCCC07B4CCF25C66B6 /* ParticleSelectNetworkViewController.h */,
+				A3C04157DD62EFD6CE7EB6161F2B01EB /* ParticleSelectNetworkViewController.m */,
+				E047162041FD2D755EE49A7BE1683D4F /* ParticleSetupCustomization.h */,
+				DE51B4FA5AF838D1D1BF815B8A6D8F11 /* ParticleSetupCustomization.m */,
+				E922AE1E457C5F76DC2050B7A547B850 /* ParticleSetupMainController.h */,
+				D0776CFD5209E465847AC330F8BE53B3 /* ParticleSetupMainController.m */,
+				C07697E3E43177C26614E8509CE024F7 /* ParticleSetupPasswordEntryViewController.h */,
+				1C5C817E4DC894C347B89178D6FED4FD /* ParticleSetupPasswordEntryViewController.m */,
+				5736AF74ACE3F80215D4136EB40098AB /* ParticleSetupResultViewController.h */,
+				D2A7CE48C05CD1C2B249994D957CBD34 /* ParticleSetupResultViewController.m */,
+				1F790C20C716B123E52272442FEDFD80 /* ParticleSetupSpacerView.h */,
+				558BA457C9EA82E465F90B9E47CF01F8 /* ParticleSetupSpacerView.m */,
+				28B09B8C32F6AF10D88E4D34E28383F0 /* ParticleSetupStrings.h */,
+				E2EF8D3B29F7B6AC782D94D74D40DD3F /* ParticleSetupStringsExtensions.h */,
+				BF8F4B91DE84B566A92E5D23107E0E54 /* ParticleSetupStringsExtensions.m */,
+				57DA64CE486AEFB849F481BE0BFF8554 /* ParticleSetupUIButton.h */,
+				A95E9872EEB2F2C8AA671E5855743E78 /* ParticleSetupUIButton.m */,
+				E7C34EBDE29DB1C75ED512136EA14C47 /* ParticleSetupUIElements.h */,
+				00B6A4A2022B5AA8BC69837F2335BD56 /* ParticleSetupUILabel.h */,
+				6C648867960010B3A46AB5CFB5E99F3A /* ParticleSetupUILabel.m */,
+				C0C92F84D9CA52EA493BB8A0D4FB4D9D /* ParticleSetupUISpinner.h */,
+				D5EDDD5D2F5F2E46481465D4F7DF66A3 /* ParticleSetupUISpinner.m */,
+				29AEC26158EB97B5787416CAE2565A4C /* ParticleSetupUIViewController.h */,
+				8A0168506463259BD4C00D1AC20ED999 /* ParticleSetupUIViewController.m */,
+				35EB2CAB6D7092A35A22717870EFAE81 /* ParticleSetupVideoViewController.h */,
+				E14430595C6DE53E2080753DD68DCA84 /* ParticleSetupVideoViewController.m */,
+				B59F5F4CA30EB0A7AEA09CA29B783311 /* ParticleSetupWebViewController.h */,
+				BC63BE881DE8AAB74D668E243688D328 /* ParticleSetupWebViewController.m */,
+				CF71F04CA59A7AFE4C8E3DBC05B7E8B5 /* ParticleSetupWifiTableViewCell.h */,
+				B0F29F1504E88CF348CA4647D71D95BF /* ParticleSetupWifiTableViewCell.m */,
+				4FB1F139CBD203621FA36E883D215499 /* ParticleUserForgotPasswordViewController.h */,
+				22F8C3B8074B2221FAC4DBADEBAC966D /* ParticleUserForgotPasswordViewController.m */,
+				95EAD5CDCE4E6B991A5937DDE78ED4ED /* ParticleUserLoginViewController.h */,
+				AB31954726ACB5F5C87EB56D902B7CDF /* ParticleUserLoginViewController.m */,
+				034C6B1F2F8C32951DD0DF1E49A7B9F5 /* ParticleUserMFAViewController.h */,
+				9CB9387A3C1B4D5036C1671FE2FAC4E6 /* ParticleUserMFAViewController.m */,
+				9990DAC23727DCE33E717C549B553DEB /* ParticleUserSignupViewController.h */,
+				6FE9034B49B371F5C9989DBB4D8F34D0 /* ParticleUserSignupViewController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		906CDC4005808D34A3AF5749D7C5165C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D58DBEC328827FB7D1DF34C1357C90C /* 1PasswordExtension.modulemap */,
+				5F76A9E3E954B6EDD2A13F9439A7E0B3 /* 1PasswordExtension-dummy.m */,
+				036470C9E3F1BC166BBC7F290A20BA23 /* 1PasswordExtension-Info.plist */,
+				96FA60A1E7B9725D527252D0EE733754 /* 1PasswordExtension-prefix.pch */,
+				911941DD9BD0179477568B983F6CE79B /* 1PasswordExtension-umbrella.h */,
+				8EBB4390A230CBE170C5CDCE7D955A51 /* 1PasswordExtension.debug.xcconfig */,
+				F2AD9558BCBCB7F57C37F2D4CE649FD5 /* 1PasswordExtension.release.xcconfig */,
+				D346A8141C7D5E7DBF768C81BD24E107 /* ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/1PasswordExtension";
+			sourceTree = "<group>";
+		};
+		AC8835C3D01B5D59083856CBEF1AABA4 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				C77E308752F59C7F220EC56A1327F609 /* AFSecurityPolicy.h */,
+				705F2208AC820F8B83451385A02F8103 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		B457883FC3D0BF405A512A342D969088 /* Particle-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				572F7A539A4FB8920D64650A2D8A0F9D /* Particle-SDK.h */,
+				E0B035A45F45371DB96555628BEE2C96 /* Helpers */,
+				04DB72B4C060F4D3B0C8124C4D860904 /* SDK */,
+				2812D164E9CA52E2E71BFD824500F136 /* Support Files */,
+			);
+			name = "Particle-SDK";
+			path = "Particle-SDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DB3364F9D3537ED61CE1334880A6C48C /* Frameworks */,
+				F209F64DC0133F93E35080579CB8B6EA /* Pods */,
+				7E66175B992E9E6092BB827299E60AF0 /* Products */,
+				360C017C3CAD30A43C1BB05E1AD75A52 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF56AD8FF1BE78A9D29FA6093AF87AA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F616F7593A7EF22C63AB6A1B40880AC /* ParticleSetupStrings.strings */,
+				964E1749E1A288622B123563039E72A6 /* setup.storyboard */,
+				27C33D0A29D186770DAC2CF6CFFB6BC8 /* setup.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DB3364F9D3537ED61CE1334880A6C48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8189226888C684C3B6D7EE6C7B6B8F /* AFNetworking.framework */,
+				E105F0C1E7BC0C123D46655EB7C1655F /* OnePasswordExtension.framework */,
+				7F22FCB3A9AC5098C69FF36B9944E100 /* Particle_SDK.framework */,
+				7661A927F0AE9B907134E47C8D795F05 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7888D66B5705FC5858C134FD810D2A /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				60C34B2DBA18F47D0EF2C2FD602F0EC9 /* AFURLRequestSerialization.h */,
+				0FA4F20CB35948DFC3EE390B35293890 /* AFURLRequestSerialization.m */,
+				D9A36BDAD411466EB83C7D6996E80DAF /* AFURLResponseSerialization.h */,
+				AF76B333D739C75D0A2373623CDA5C60 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		E0B035A45F45371DB96555628BEE2C96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB88CB8B49EC7C9721FED50BEE0AF6 /* EventSource.h */,
+				5AC4D696E2937D73E295BC52C10A4FDC /* EventSource.m */,
+				7BDFC8925BCC9C1E2E0610E7CD987143 /* KeychainHelper.h */,
+				F168A231AA5F2B1FD6BDAA9760D59A2B /* KeychainHelper.m */,
+				EB065EEF5CBD203C9B592455C8B667C8 /* ParticleErrorHelper.h */,
+				2E328C508DCB25F140952920CE764F6F /* ParticleErrorHelper.m */,
+				805CB72549B20F5902E4A90E3CD22FD8 /* ParticleLogger.h */,
+				0507049ACDF7FDC0C45896EEADB8FE60 /* ParticleLogger.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F209F64DC0133F93E35080579CB8B6EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D52DCD8008E410C29AB950504A38B4A /* 1PasswordExtension */,
+				182C870226548C1586D4179E1F6FD0AD /* AFNetworking */,
+				B457883FC3D0BF405A512A342D969088 /* Particle-SDK */,
+				01755DA6826A72EE83703016B7564348 /* ParticleSetup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00CB5A5BEC6017371A1A8A92774948D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0443CDD92DCC957EEE3C1030FB74BB4 /* EventSource.h in Headers */,
+				FA6D7F6E5002DC82857BDCA1E254C720 /* KeychainHelper.h in Headers */,
+				62E86E3C8759E1DBC76466575D7D3ED7 /* Particle-SDK-umbrella.h in Headers */,
+				7E45BD7368C2E249033420D50FDD555C /* Particle-SDK.h in Headers */,
+				4D923A5760A4622293AC181DD2304407 /* ParticleCloud.h in Headers */,
+				6A37B1DC8B010902B0FDD512A77B502D /* ParticleDeveloperAgreement.h in Headers */,
+				EA0059043FC2DBC657FE799CDE7383F7 /* ParticleDevice.h in Headers */,
+				93FE6F38951364652F320C9C929DC7AE /* ParticleErrorHelper.h in Headers */,
+				9481CA4C2B15111EC8E11D1E756F8408 /* ParticleEvent.h in Headers */,
+				EC378C12F1215A3F7CAEB2C7678EAF69 /* ParticleLogger.h in Headers */,
+				D9D902C25787524EAC9988BD4B6E4F10 /* ParticleNetwork.h in Headers */,
+				A9C6B93912D5DC3A537F8CB642278B01 /* ParticlePricingInfo.h in Headers */,
+				1EAE2D8E2BBFA44C7E6AC4A232AB9EAF /* ParticleSession.h in Headers */,
+				07204E6443ECBC9C73AC3EC8427BD92F /* ParticleSimInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04704ECF4322A6818589786FF1262AEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B85F4E18729114AA3D5E550D8947E73 /* 1PasswordExtension-umbrella.h in Headers */,
+				944F99D1CF0FE84994B026EF9AD0D8F3 /* OnePasswordExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828D363135076B7F52273F7C7451964E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD95DA997D57C78C5C530C3937862DE /* Pods-Curiosity-Station-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D3D657479E42668A6C939C12BD527B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE00F6F0C8FFC6EE305C735990BAC0A /* ParticleConnectingProgressViewController.h in Headers */,
+				385FA9E0BAB1F7113F18B13D63B98413 /* ParticleDiscoverDeviceViewController.h in Headers */,
+				9D70D14703167496720F24946F94785A /* ParticleGetLocationPermissionViewController.h in Headers */,
+				362A3D83A37A38CABDB4E55C3E42C67A /* ParticleGetReadyViewController.h in Headers */,
+				0E234694FC31AF8F20E53FA62A19EF26 /* ParticleManualNetworkViewController.h in Headers */,
+				1E8A6B22B77035F8B80B7802FC7F723F /* ParticleSelectNetworkViewController.h in Headers */,
+				7C18387871B24161F954A036D7880669 /* ParticleSetup-Bridging-Header.h in Headers */,
+				2BD1788C1FEBE34B51D3B23E2D7C3488 /* ParticleSetup-umbrella.h in Headers */,
+				E9B0E5408699B2A39250063BA949A20E /* ParticleSetup.h in Headers */,
+				A3100FD69DB04075C52FFDC4BE786068 /* ParticleSetupCommManager.h in Headers */,
+				51F2FDCD2C02097D15CE05982B888960 /* ParticleSetupConnection.h in Headers */,
+				A691DF83CAC52E35A073F63AB7C9D112 /* ParticleSetupCustomization.h in Headers */,
+				6A92A4D488827632111EA36321B2D12C /* ParticleSetupMainController.h in Headers */,
+				815D482029A504EC3B3C6C3B5BF4DE39 /* ParticleSetupPasswordEntryViewController.h in Headers */,
+				9A9D28DBC455907EF2F0ACA491C4C641 /* ParticleSetupResultViewController.h in Headers */,
+				DC03C367587D35B8430E1CAB39AF6060 /* ParticleSetupSecurityManager.h in Headers */,
+				8AAD6F50CFE8012D18CB023FE1987F82 /* ParticleSetupSpacerView.h in Headers */,
+				82FB63C1C763CAD79C6CA4815CEAC77F /* ParticleSetupStrings.h in Headers */,
+				FD624DC800E37F2FD6DEC1B3147501B0 /* ParticleSetupStringsExtensions.h in Headers */,
+				A51F052CEFE10BF6377B06B1A23ADD95 /* ParticleSetupUIButton.h in Headers */,
+				F65717A5BBC93B6E556C868CBD4B90F0 /* ParticleSetupUIElements.h in Headers */,
+				5E7049DAB699FF708003AEEC25B5383A /* ParticleSetupUILabel.h in Headers */,
+				9116CCFDAF432CA98DA4C480723B68B1 /* ParticleSetupUISpinner.h in Headers */,
+				5449E6FD092548CE1C3B031694A20C6B /* ParticleSetupUIViewController.h in Headers */,
+				9571F10DA5C9E3FA93CB2371F7FBC61F /* ParticleSetupVideoViewController.h in Headers */,
+				519DEEF2D1B69AF5089D06D0B109E2AF /* ParticleSetupWebViewController.h in Headers */,
+				E2187D967C11A57E5E59635D846323F9 /* ParticleSetupWifiTableViewCell.h in Headers */,
+				8AF3609A0A6A1B72E5117E4ECC75DD53 /* ParticleUserForgotPasswordViewController.h in Headers */,
+				9D86D0ECC04931178EE061FF99DAD85D /* ParticleUserLoginViewController.h in Headers */,
+				A610F472B19C9FA345B9E92675F00D8C /* ParticleUserMFAViewController.h in Headers */,
+				03E5389570C3E332B6C4571727CC6FC8 /* ParticleUserSignupViewController.h in Headers */,
+				958135F116BCCC2D2C907426F81CA69C /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */,
+				F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */,
+				C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */,
+				B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */,
+				722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */,
+				D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */,
+				163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */,
+				AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */,
+				2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */,
+				8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */,
+				A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */,
+				E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */,
+				F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */,
+				4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */,
+				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
+				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
+				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */,
+				6F66130117A5CA2EFE69F1739F512499 /* Sources */,
+				8F9BCCCF510F65077210B8D9944565EC /* Frameworks */,
+				5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B5BA6BA3BFCA2F8462B26A41502BC33 /* ParticleSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2545A773FAF9EAABFE6F253E3340B9 /* Build configuration list for PBXNativeTarget "ParticleSetup" */;
+			buildPhases = (
+				90D3D657479E42668A6C939C12BD527B /* Headers */,
+				0C1DBC8E4606CC7D557F11A74A2908DD /* Sources */,
+				48A43FBCA738CA273DD108BD7C5E8FE4 /* Frameworks */,
+				AE20334FA1C7964ED3AD6C6CAD6858C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB8FFB3B48A8AE8BC8F105DCF9839AB /* PBXTargetDependency */,
+				290AFCB4175A8E616E43E86F17A6DCF4 /* PBXTargetDependency */,
+				23A947048ECC3B84A238E1A2D1794744 /* PBXTargetDependency */,
+			);
+			name = ParticleSetup;
+			productName = ParticleSetup;
+			productReference = 7FCDFCDC3F8F344555FD70EA2BF5175A /* ParticleSetup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6208D25DC48703C16058EB76004A61D6 /* 1PasswordExtension-OnePasswordExtensionResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB147C74C4D0420D4B2CFF258CBFA731 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */;
+			buildPhases = (
+				0004EB7D8C02C8E1FC0BF4F25610B011 /* Sources */,
+				C800B981F13220008FFD9791055326EC /* Frameworks */,
+				C7DBE06F75A6EB929D8F094B4AF7501C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			productName = "1PasswordExtension-OnePasswordExtensionResources";
+			productReference = AB488F6AFAA9E626BFF1B15FF728734C /* OnePasswordExtensionResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD58D4F6A96BC0587FB80428E754EB8 /* Build configuration list for PBXNativeTarget "Particle-SDK" */;
+			buildPhases = (
+				00CB5A5BEC6017371A1A8A92774948D5 /* Headers */,
+				407354094090635A07651B8C07D55976 /* Sources */,
+				11717FE67837680EE8B3FB45F1B1961F /* Frameworks */,
+				AF00C1494AFA142920E50233C8CBDFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DD02250D5882FFEE6CFF6AED68A93E /* PBXTargetDependency */,
+			);
+			name = "Particle-SDK";
+			productName = "Particle-SDK";
+			productReference = 537FCF32D6E5F7461FEF5787028B14F6 /* Particle_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C6EA1D20873232245ADDA5C52CC7E6 /* ParticleSetup-ParticleSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1D8C2F2945645224BA22F8ABECE307 /* Build configuration list for PBXNativeTarget "ParticleSetup-ParticleSetup" */;
+			buildPhases = (
+				6F6C9C1BAB8C3D3160809D8A347EB4B8 /* Sources */,
+				9E252F6D35B1106EBEFA6DEADF3E2C82 /* Frameworks */,
+				840EE60909F955A28F8C60C4DBF5EF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParticleSetup-ParticleSetup";
+			productName = "ParticleSetup-ParticleSetup";
+			productReference = 3260F24C009F93BEC941DF6EDD7DC8E7 /* ParticleSetup.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAD82FC36BADA4F5B204DD1CD6C1209 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */;
+			buildPhases = (
+				04704ECF4322A6818589786FF1262AEF /* Headers */,
+				4BE32B98CDDCDC87EAC23D2E834CF92B /* Sources */,
+				7789975A803FAC41B68BBA4007F8B14A /* Frameworks */,
+				BEBA44E0A2B1195AEBB3CBEA08AA4D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD71800DF020572C1D5B5F6F63350E0 /* PBXTargetDependency */,
+			);
+			name = 1PasswordExtension;
+			productName = 1PasswordExtension;
+			productReference = 56AF429EF5F927BE57760BC281895FD5 /* OnePasswordExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB428D2FA464BB463725267169A8550F /* Pods-Curiosity-Station-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8CA8BD1C8B2D786F10FF4BBCE90FB5 /* Build configuration list for PBXNativeTarget "Pods-Curiosity-Station-iOS" */;
+			buildPhases = (
+				828D363135076B7F52273F7C7451964E /* Headers */,
+				E796CD195FCCB272FB2E186CF3DAEBB8 /* Sources */,
+				B3FBBE10BD5B9800357DD44F09210B7E /* Frameworks */,
+				C9D09D63265E3B788FD8B8C18EEEF1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0F10B186DF4A9F005AF1C04B078C7C /* PBXTargetDependency */,
+				A44CFB3F09560C4D1A746DDA635A1DAB /* PBXTargetDependency */,
+				E8B603F0C35F4809903F3BEC0D1778DE /* PBXTargetDependency */,
+				FD5629B082A202402AD16E699E189DA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Curiosity-Station-iOS";
+			productName = "Pods-Curiosity-Station-iOS";
+			productReference = 5155AF1311B0FE873702C2A77C54E2F7 /* Pods_Curiosity_Station_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E66175B992E9E6092BB827299E60AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */,
+				6208D25DC48703C16058EB76004A61D6 /* 1PasswordExtension-OnePasswordExtensionResources */,
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */,
+				2B5BA6BA3BFCA2F8462B26A41502BC33 /* ParticleSetup */,
+				78C6EA1D20873232245ADDA5C52CC7E6 /* ParticleSetup-ParticleSetup */,
+				CB428D2FA464BB463725267169A8550F /* Pods-Curiosity-Station-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EE60909F955A28F8C60C4DBF5EF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78199FE7D4EAE921569213A8D4EBD36 /* ParticleSetupStrings.strings in Resources */,
+				85D12D51AAF6E859D160056824004886 /* setup.storyboard in Resources */,
+				6AF76FA501BA30FB1F4A18F19CE51C73 /* setup.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE20334FA1C7964ED3AD6C6CAD6858C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9551AFFDA2C583C0FCF621457C28ACFB /* ParticleSetup.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF00C1494AFA142920E50233C8CBDFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA44E0A2B1195AEBB3CBEA08AA4D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5716EF5342BD620457FEA7538D54D017 /* OnePasswordExtensionResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DBE06F75A6EB929D8F094B4AF7501C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3B1F358128187ABAB16A47A2402581 /* 1Password.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D09D63265E3B788FD8B8C18EEEF1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0004EB7D8C02C8E1FC0BF4F25610B011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1DBC8E4606CC7D557F11A74A2908DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2687D17A7FFB30655E15249DBDAB273 /* ParticleConnectingProgressViewController.m in Sources */,
+				41244BC4163E23805F22403039F07E5A /* ParticleDiscoverDeviceViewController.m in Sources */,
+				91A74732C93A4AB878332E2621E79ED7 /* ParticleGetLocationPermissionViewController.m in Sources */,
+				DD0F525321C37037A63E792974E92CCC /* ParticleGetReadyViewController.m in Sources */,
+				7BFAE6644ED779A37457E80096BC240C /* ParticleManualNetworkViewController.m in Sources */,
+				71A4AFE7ADAD35DFB43B83C7DED02B0A /* ParticleSelectNetworkViewController.m in Sources */,
+				A84F196843A0D326C741D84F9A3AEB31 /* ParticleSetup-dummy.m in Sources */,
+				91490EF4165B36E776AE99F2CE21FC84 /* ParticleSetupCommManager.m in Sources */,
+				CD7E035D9A79ECA27309972B59475A24 /* ParticleSetupConnection.m in Sources */,
+				9AEF13CFCAC7074EE76387E3B3FD7DE2 /* ParticleSetupCustomization.m in Sources */,
+				16009937E43699455BC26540A21D199B /* ParticleSetupMainController.m in Sources */,
+				3C0AB1C37B8D7636F65DC119E2822BE0 /* ParticleSetupPasswordEntryViewController.m in Sources */,
+				14713CD36AE5CF5DC397679C780116AF /* ParticleSetupResultViewController.m in Sources */,
+				E6B13C1F8BCCB17FEC31092405712A9C /* ParticleSetupSecurityManager.m in Sources */,
+				1D9CBAD9514252FF524EB2E0A1CD6ADD /* ParticleSetupSpacerView.m in Sources */,
+				DBEF87ADC4C2EC755AF6B7F5B4E4AD6C /* ParticleSetupStringsExtensions.m in Sources */,
+				DBD8488750837C5E03B4AED32F31ADF2 /* ParticleSetupUIButton.m in Sources */,
+				7BB02A61873D7030878886D85EA0F35B /* ParticleSetupUILabel.m in Sources */,
+				9F9F7CF4F1362E6295B13901C12E5877 /* ParticleSetupUISpinner.m in Sources */,
+				528ACA11697E68A6CC809B2714F5EB97 /* ParticleSetupUIViewController.m in Sources */,
+				673F15570457FF2F9E2D3AAEBAE36F4A /* ParticleSetupVideoViewController.m in Sources */,
+				1128B54A8685DF5A30C4736CADA3B2CE /* ParticleSetupWebViewController.m in Sources */,
+				7350851D768E2D0AD922D48A57FC1FF9 /* ParticleSetupWifiTableViewCell.m in Sources */,
+				6971E0AC7096DD7A96C1B26E97930983 /* ParticleUserForgotPasswordViewController.m in Sources */,
+				B1925EE015A05377B769CEE89BF8F72B /* ParticleUserLoginViewController.m in Sources */,
+				596CFC3345E79E840FDF0CBB6F8C13B6 /* ParticleUserMFAViewController.m in Sources */,
+				9901E541EEF77EDBD27D0C39F9E866E5 /* ParticleUserSignupViewController.m in Sources */,
+				9F8AF589D62155B1C07B6ECECAE4ADA5 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407354094090635A07651B8C07D55976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596AB727D273D995D6938C573BC97D61 /* EventSource.m in Sources */,
+				FB744181A39F3E796820CB158E8D953C /* KeychainHelper.m in Sources */,
+				07A1210FBC9A2E6DE786AE1B690FDA84 /* Particle-SDK-dummy.m in Sources */,
+				8C74B42DE8642668ADB1D0DD9744A84C /* ParticleCloud.m in Sources */,
+				21FF0E4297EAF62857038F7008BC6193 /* ParticleDeveloperAgreement.m in Sources */,
+				3DCBD4EB4B45B9DF0EEBFB597C260DAA /* ParticleDevice.m in Sources */,
+				86C73EA7E7F230546CB34A5B978366DB /* ParticleErrorHelper.m in Sources */,
+				FD78D722CD4C54BCA6B234B509CFD487 /* ParticleEvent.m in Sources */,
+				4F0D418278E62AF3ACF86FF7A3DAB7D3 /* ParticleLogger.m in Sources */,
+				D400D1C745E8CD3E6E260D960142BA8D /* ParticleNetwork.m in Sources */,
+				1FEA32D06DEB9D534DA73A7AF979B02E /* ParticlePricingInfo.m in Sources */,
+				730B2DB59DE718F80217ABC8A5C7939F /* ParticleSession.m in Sources */,
+				318D6D3D120B5CF75077F05073F8164C /* ParticleSimInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE32B98CDDCDC87EAC23D2E834CF92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721244A3BDFD1301CEF57E24FB8C6874 /* 1PasswordExtension-dummy.m in Sources */,
+				A7223F51282BA292773C374177DE4EAE /* OnePasswordExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F66130117A5CA2EFE69F1739F512499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */,
+				8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */,
+				B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */,
+				9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */,
+				2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */,
+				A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */,
+				BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */,
+				828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */,
+				76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */,
+				FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */,
+				232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */,
+				02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */,
+				01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */,
+				951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C9C1BAB8C3D3160809D8A347EB4B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E796CD195FCCB272FB2E186CF3DAEBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E5EAB8508822BC8F26BA591730EF78 /* Pods-Curiosity-Station-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23A947048ECC3B84A238E1A2D1794744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ParticleSetup-ParticleSetup";
+			target = 78C6EA1D20873232245ADDA5C52CC7E6 /* ParticleSetup-ParticleSetup */;
+			targetProxy = ACC1DE001266302EC605F71D6EC1A397 /* PBXContainerItemProxy */;
+		};
+		290AFCB4175A8E616E43E86F17A6DCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Particle-SDK";
+			target = 68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */;
+			targetProxy = D0FDCF782DFF8522C7E5E4FF114D2D2E /* PBXContainerItemProxy */;
+		};
+		A2DD02250D5882FFEE6CFF6AED68A93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = CD574290FDB3F3ADA4D746EAD7508C81 /* PBXContainerItemProxy */;
+		};
+		A44CFB3F09560C4D1A746DDA635A1DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 4ECFD88A9D4704EF44ED1E70B15BBB8B /* PBXContainerItemProxy */;
+		};
+		AAB8FFB3B48A8AE8BC8F105DCF9839AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = 1PasswordExtension;
+			target = 8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */;
+			targetProxy = 0BB1492035D1F30313CC8F086C7CF0A3 /* PBXContainerItemProxy */;
+		};
+		AC0F10B186DF4A9F005AF1C04B078C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = 1PasswordExtension;
+			target = 8E34DB7C0B7C3F9DD81B0CFF93D50206 /* 1PasswordExtension */;
+			targetProxy = 956A439C1E16326CA5869A6726D63EF7 /* PBXContainerItemProxy */;
+		};
+		AFD71800DF020572C1D5B5F6F63350E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			target = 6208D25DC48703C16058EB76004A61D6 /* 1PasswordExtension-OnePasswordExtensionResources */;
+			targetProxy = 4A424C3F599DA4E75FD43BF0BC629B40 /* PBXContainerItemProxy */;
+		};
+		E8B603F0C35F4809903F3BEC0D1778DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Particle-SDK";
+			target = 68AB791372E806C05E7AAFFFF40D6B7F /* Particle-SDK */;
+			targetProxy = 37BDD5ED35CEF3B0E249ECD68A6655B7 /* PBXContainerItemProxy */;
+		};
+		FD5629B082A202402AD16E699E189DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParticleSetup;
+			target = 2B5BA6BA3BFCA2F8462B26A41502BC33 /* ParticleSetup */;
+			targetProxy = 20C438AC5E5B24F794ED06466E8AAFF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27647CF24FA4A5B094B2A4E3990F5DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDF48D7AAFB4DED2A3A1EA6A9AB5A09 /* Pods-Curiosity-Station-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E58022BD7EAA2A04F56B9386065D1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBB4390A230CBE170C5CDCE7D955A51 /* 1PasswordExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				PRODUCT_MODULE_NAME = OnePasswordExtension;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E5F25A960FF195E3DE852C243306FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313112C373AA057140A34D578F12CABE /* Particle-SDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Particle-SDK/Particle-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Particle-SDK/Particle-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Particle-SDK/Particle-SDK.modulemap";
+				PRODUCT_MODULE_NAME = Particle_SDK;
+				PRODUCT_NAME = Particle_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65872CE2440A194E062F0A503668AE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC299D3FB68C61DAA787357E98AD380 /* ParticleSetup.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ParticleSetup";
+				IBSC_MODULE = ParticleSetup;
+				INFOPLIST_FILE = "Target Support Files/ParticleSetup/ResourceBundle-ParticleSetup-ParticleSetup-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ParticleSetup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		69E2BE386CED50B1EDF317D8CA89A920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5C86240C376213D911C85D963CC2EB /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71AE7D8ECFCC72EAD71B9168D62EE5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61BDFFE31A153ACFD9102D93A42A6AD /* ParticleSetup.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParticleSetup/ParticleSetup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParticleSetup/ParticleSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ParticleSetup/ParticleSetup.modulemap";
+				PRODUCT_MODULE_NAME = ParticleSetup;
+				PRODUCT_NAME = ParticleSetup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880F79EEA0DD0CC785E37D7575FEF9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4FB2F6B46AE4AA9C96E391452BF025 /* Particle-SDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Particle-SDK/Particle-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Particle-SDK/Particle-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Particle-SDK/Particle-SDK.modulemap";
+				PRODUCT_MODULE_NAME = Particle_SDK;
+				PRODUCT_NAME = Particle_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B44D9E84AF0514D5977A79B57C1E8C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61BDFFE31A153ACFD9102D93A42A6AD /* ParticleSetup.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ParticleSetup";
+				IBSC_MODULE = ParticleSetup;
+				INFOPLIST_FILE = "Target Support Files/ParticleSetup/ResourceBundle-ParticleSetup-ParticleSetup-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ParticleSetup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CBA0CD1ECA22DF853537418FE7168D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AD9558BCBCB7F57C37F2D4CE649FD5 /* 1PasswordExtension.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
+				IBSC_MODULE = OnePasswordExtension;
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D5FF2A90A8FC35EAAF95B4A2F5D3BBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC299D3FB68C61DAA787357E98AD380 /* ParticleSetup.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParticleSetup/ParticleSetup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParticleSetup/ParticleSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ParticleSetup/ParticleSetup.modulemap";
+				PRODUCT_MODULE_NAME = ParticleSetup;
+				PRODUCT_NAME = ParticleSetup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D674580A80F2051978ACAA8F94BC1DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65333DE55C1A030D4778D6CAAD041B43 /* Pods-Curiosity-Station-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Curiosity-Station-iOS/Pods-Curiosity-Station-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D989FAD946643A0CB55A76573947A790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBB4390A230CBE170C5CDCE7D955A51 /* 1PasswordExtension.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/1PasswordExtension";
+				IBSC_MODULE = OnePasswordExtension;
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/ResourceBundle-OnePasswordExtensionResources-1PasswordExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DDE58AA6A9B143E318A590151C533A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C05E2530B64E02F27E5B6CD35F9D148 /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB93BE88C80D9A4037EDDD1281D20905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AD9558BCBCB7F57C37F2D4CE649FD5 /* 1PasswordExtension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				PRODUCT_MODULE_NAME = OnePasswordExtension;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8CA8BD1C8B2D786F10FF4BBCE90FB5 /* Build configuration list for PBXNativeTarget "Pods-Curiosity-Station-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27647CF24FA4A5B094B2A4E3990F5DFB /* Debug */,
+				D674580A80F2051978ACAA8F94BC1DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD58D4F6A96BC0587FB80428E754EB8 /* Build configuration list for PBXNativeTarget "Particle-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880F79EEA0DD0CC785E37D7575FEF9DD /* Debug */,
+				2E5F25A960FF195E3DE852C243306FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2545A773FAF9EAABFE6F253E3340B9 /* Build configuration list for PBXNativeTarget "ParticleSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FF2A90A8FC35EAAF95B4A2F5D3BBCE /* Debug */,
+				71AE7D8ECFCC72EAD71B9168D62EE5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E2BE386CED50B1EDF317D8CA89A920 /* Debug */,
+				DDE58AA6A9B143E318A590151C533A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB147C74C4D0420D4B2CFF258CBFA731 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D989FAD946643A0CB55A76573947A790 /* Debug */,
+				CBA0CD1ECA22DF853537418FE7168D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAD82FC36BADA4F5B204DD1CD6C1209 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E58022BD7EAA2A04F56B9386065D1E2 /* Debug */,
+				EB93BE88C80D9A4037EDDD1281D20905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1D8C2F2945645224BA22F8ABECE307 /* Build configuration list for PBXNativeTarget "ParticleSetup-ParticleSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65872CE2440A194E062F0A503668AE61 /* Debug */,
+				B44D9E84AF0514D5977A79B57C1E8C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
